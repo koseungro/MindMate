@@ -1,0 +1,1307 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b32e5c1ceec10f04990542eef870225d, type: 3}
+  m_Name: 02. Theater_01
+  m_EditorClassIdentifier: 
+  sceneID: Theater_02_01
+  cutDataList:
+  - visualType: 12
+    isFold: 1
+    _isFold: 1
+    checkPoint_End: 0
+    narrationOption:
+      soundType: 0
+      narrationType: 0
+      subtitleType: 0
+      clip: {fileID: 0}
+      isSameTime: 0
+      loop: 0
+      volume: 1
+      volumeFadeTime: 0
+      notRestoreBackground: 0
+      waitSecond: 1
+      useCheckPoint: 0
+      checkSubtitleList: []
+    animationOption:
+      animType: 0
+      charType: 0
+      clip: {fileID: 0}
+      isSame: 0
+    uiOption:
+      uiType: 0
+      objPath: 
+      isActive: 0
+      nextScene: {fileID: 0}
+      uiAnimationOption:
+        aniType: 0
+        time: 0
+        startPos: {x: 0, y: 0, z: 0}
+        endPos: {x: 0, y: 0, z: 0}
+        startA: 0
+        endA: 0
+        changeSprite: {fileID: 0}
+        changeText: 
+      pos_UI: {x: 0, y: 0, z: 0}
+      rot_UI: {x: 0, y: 0, z: 0}
+      breatheCnt: 0
+      useHoldBreath: 0
+      isSame: 0
+    fadeOption:
+      uiCanvasType: 0
+      startAlpha: 0
+      endAlpha: 0
+      time: 0
+      useLoadingUI: 0
+    videoOption:
+      videoType: 0
+      subtitleType: 0
+      state: 0
+      seekState: 0
+      urlPath: 
+      sTime: 0
+      eTime: 0
+      jumpLenth: 0
+      rotation: {x: 0, y: 0, z: 0}
+      position: {x: 0, y: 0, z: 0}
+      seekFrame: 0
+      useSubtitle: 0
+    layOption:
+      isOn: 0
+    waitOption:
+      waitTime: 0
+    objActiveOption:
+      ObjType: 0
+      rootParent: 
+      targetObjPath: 
+      isActive: 0
+      skyMat: {fileID: 0}
+      pos_Obj: {x: 0, y: 0, z: 0}
+      rot_Obj: {x: 0, y: 0, z: 0}
+      moveTime: 0
+      curveMove:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      moveOn: 0
+      bezierPos: 0
+      layerNum: 0
+      componentName: 
+      targetParentPath: 
+      targetParentRoot: 
+      cameraViewType: 0
+    sceneOption:
+      sceneMgrType: 0
+      sceneName: 
+      fogOn: 0
+      fogColor: {r: 0, g: 0, b: 0, a: 0}
+      fogMode: 0
+      startDistance: 0
+      endDistance: 0
+      density: 0
+      haloStrength: 0.5
+      flareStrength: 1
+      lightPath: 
+      light: {fileID: 0}
+      clearFlags: 0
+      backgroundColor: {r: 0, g: 0, b: 0, a: 0}
+      videoContentType: 0
+      downloadCompleted_Scene: {fileID: 0}
+      downloadUnCompleted_Scene: {fileID: 0}
+      lightingDataAsset: {fileID: 0}
+    timerOption:
+      timerType: 0
+      endTime: 0
+      limitTime: 0
+      textPath: 
+      buttonPath: 
+    xrOption:
+      xrType: 3
+      useFunction: 0
+      hapticAmplitude: 0
+      hapticDuration: 0
+      outlineColor: {r: 0, g: 0, b: 0, a: 0}
+  - visualType: 4
+    isFold: 1
+    _isFold: 1
+    checkPoint_End: 0
+    narrationOption:
+      soundType: 0
+      narrationType: 0
+      subtitleType: 0
+      clip: {fileID: 0}
+      isSameTime: 0
+      loop: 0
+      volume: 1
+      volumeFadeTime: 0
+      notRestoreBackground: 0
+      waitSecond: 1
+      useCheckPoint: 0
+      checkSubtitleList: []
+    animationOption:
+      animType: 0
+      charType: 0
+      clip: {fileID: 0}
+      isSame: 0
+    uiOption:
+      uiType: 0
+      objPath: 
+      isActive: 0
+      nextScene: {fileID: 0}
+      uiAnimationOption:
+        aniType: 0
+        time: 0
+        startPos: {x: 0, y: 0, z: 0}
+        endPos: {x: 0, y: 0, z: 0}
+        startA: 0
+        endA: 0
+        changeSprite: {fileID: 0}
+        changeText: 
+      pos_UI: {x: 0, y: 0, z: 0}
+      rot_UI: {x: 0, y: 0, z: 0}
+      breatheCnt: 0
+      useHoldBreath: 0
+      isSame: 0
+    fadeOption:
+      uiCanvasType: 2
+      startAlpha: 0
+      endAlpha: 1
+      time: 2
+      useLoadingUI: 0
+    videoOption:
+      videoType: 0
+      subtitleType: 0
+      state: 0
+      seekState: 0
+      urlPath: 
+      sTime: 0
+      eTime: 0
+      jumpLenth: 0
+      rotation: {x: 0, y: 0, z: 0}
+      position: {x: 0, y: 0, z: 0}
+      seekFrame: 0
+      useSubtitle: 0
+    layOption:
+      isOn: 0
+    waitOption:
+      waitTime: 0
+    objActiveOption:
+      ObjType: 0
+      rootParent: 
+      targetObjPath: 
+      isActive: 0
+      skyMat: {fileID: 0}
+      pos_Obj: {x: 0, y: 0, z: 0}
+      rot_Obj: {x: 0, y: 0, z: 0}
+      moveTime: 0
+      curveMove:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      moveOn: 0
+      bezierPos: 0
+      layerNum: 0
+      componentName: 
+      targetParentPath: 
+      targetParentRoot: 
+      cameraViewType: 0
+    sceneOption:
+      sceneMgrType: 0
+      sceneName: 
+      fogOn: 0
+      fogColor: {r: 0, g: 0, b: 0, a: 0}
+      fogMode: 0
+      startDistance: 0
+      endDistance: 0
+      density: 0
+      haloStrength: 0.5
+      flareStrength: 1
+      lightPath: 
+      light: {fileID: 0}
+      clearFlags: 0
+      backgroundColor: {r: 0, g: 0, b: 0, a: 0}
+      videoContentType: 0
+      downloadCompleted_Scene: {fileID: 0}
+      downloadUnCompleted_Scene: {fileID: 0}
+      lightingDataAsset: {fileID: 0}
+    timerOption:
+      timerType: 0
+      endTime: 0
+      limitTime: 0
+      textPath: 
+      buttonPath: 
+    xrOption:
+      xrType: 0
+      useFunction: 0
+      hapticAmplitude: 0
+      hapticDuration: 0
+      outlineColor: {r: 0, g: 0, b: 0, a: 0}
+  - visualType: 10
+    isFold: 1
+    _isFold: 1
+    checkPoint_End: 0
+    narrationOption:
+      soundType: 0
+      narrationType: 0
+      subtitleType: 0
+      clip: {fileID: 0}
+      isSameTime: 0
+      loop: 0
+      volume: 1
+      volumeFadeTime: 0
+      notRestoreBackground: 0
+      waitSecond: 1
+      useCheckPoint: 0
+      checkSubtitleList: []
+    animationOption:
+      animType: 0
+      charType: 0
+      clip: {fileID: 0}
+      isSame: 0
+    uiOption:
+      uiType: 0
+      objPath: 
+      isActive: 0
+      nextScene: {fileID: 0}
+      uiAnimationOption:
+        aniType: 0
+        time: 0
+        startPos: {x: 0, y: 0, z: 0}
+        endPos: {x: 0, y: 0, z: 0}
+        startA: 0
+        endA: 0
+        changeSprite: {fileID: 0}
+        changeText: 
+      pos_UI: {x: 0, y: 0, z: 0}
+      rot_UI: {x: 0, y: 0, z: 0}
+      breatheCnt: 0
+      useHoldBreath: 0
+      isSame: 0
+    fadeOption:
+      uiCanvasType: 0
+      startAlpha: 0
+      endAlpha: 0
+      time: 0
+      useLoadingUI: 0
+    videoOption:
+      videoType: 0
+      subtitleType: 0
+      state: 0
+      seekState: 0
+      urlPath: 
+      sTime: 0
+      eTime: 0
+      jumpLenth: 0
+      rotation: {x: 0, y: 0, z: 0}
+      position: {x: 0, y: 0, z: 0}
+      seekFrame: 0
+      useSubtitle: 0
+    layOption:
+      isOn: 0
+    waitOption:
+      waitTime: 0
+    objActiveOption:
+      ObjType: 0
+      rootParent: 
+      targetObjPath: 
+      isActive: 0
+      skyMat: {fileID: 0}
+      pos_Obj: {x: 0, y: 0, z: 0}
+      rot_Obj: {x: 0, y: 0, z: 0}
+      moveTime: 0
+      curveMove:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      moveOn: 0
+      bezierPos: 0
+      layerNum: 0
+      componentName: 
+      targetParentPath: 
+      targetParentRoot: 
+      cameraViewType: 0
+    sceneOption:
+      sceneMgrType: 2
+      sceneName: 
+      fogOn: 0
+      fogColor: {r: 0, g: 0, b: 0, a: 0}
+      fogMode: 0
+      startDistance: 0
+      endDistance: 0
+      density: 0
+      haloStrength: 0.5
+      flareStrength: 1
+      lightPath: 
+      light: {fileID: 0}
+      clearFlags: 0
+      backgroundColor: {r: 0, g: 0, b: 0, a: 0}
+      videoContentType: 0
+      downloadCompleted_Scene: {fileID: 0}
+      downloadUnCompleted_Scene: {fileID: 0}
+      lightingDataAsset: {fileID: 0}
+    timerOption:
+      timerType: 0
+      endTime: 0
+      limitTime: 0
+      textPath: 
+      buttonPath: 
+    xrOption:
+      xrType: 0
+      useFunction: 0
+      hapticAmplitude: 0
+      hapticDuration: 0
+      outlineColor: {r: 0, g: 0, b: 0, a: 0}
+  - visualType: 10
+    isFold: 1
+    _isFold: 1
+    checkPoint_End: 0
+    narrationOption:
+      soundType: 0
+      narrationType: 0
+      subtitleType: 0
+      clip: {fileID: 0}
+      isSameTime: 0
+      loop: 0
+      volume: 1
+      volumeFadeTime: 0
+      notRestoreBackground: 0
+      waitSecond: 1
+      useCheckPoint: 0
+      checkSubtitleList: []
+    animationOption:
+      animType: 0
+      charType: 0
+      clip: {fileID: 0}
+      isSame: 0
+    uiOption:
+      uiType: 0
+      objPath: 
+      isActive: 0
+      nextScene: {fileID: 0}
+      uiAnimationOption:
+        aniType: 0
+        time: 0
+        startPos: {x: 0, y: 0, z: 0}
+        endPos: {x: 0, y: 0, z: 0}
+        startA: 0
+        endA: 0
+        changeSprite: {fileID: 0}
+        changeText: 
+      pos_UI: {x: 0, y: 0, z: 0}
+      rot_UI: {x: 0, y: 0, z: 0}
+      breatheCnt: 0
+      useHoldBreath: 0
+      isSame: 0
+    fadeOption:
+      uiCanvasType: 0
+      startAlpha: 0
+      endAlpha: 0
+      time: 0
+      useLoadingUI: 0
+    videoOption:
+      videoType: 0
+      subtitleType: 0
+      state: 0
+      seekState: 0
+      urlPath: 
+      sTime: 0
+      eTime: 0
+      jumpLenth: 0
+      rotation: {x: 0, y: 0, z: 0}
+      position: {x: 0, y: 0, z: 0}
+      seekFrame: 0
+      useSubtitle: 0
+    layOption:
+      isOn: 0
+    waitOption:
+      waitTime: 0
+    objActiveOption:
+      ObjType: 0
+      rootParent: 
+      targetObjPath: 
+      isActive: 0
+      skyMat: {fileID: 0}
+      pos_Obj: {x: 0, y: 0, z: 0}
+      rot_Obj: {x: 0, y: 0, z: 0}
+      moveTime: 0
+      curveMove:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      moveOn: 0
+      bezierPos: 0
+      layerNum: 0
+      componentName: 
+      targetParentPath: 
+      targetParentRoot: 
+      cameraViewType: 0
+    sceneOption:
+      sceneMgrType: 5
+      sceneName: 
+      fogOn: 0
+      fogColor: {r: 0, g: 0, b: 0, a: 0}
+      fogMode: 0
+      startDistance: 0
+      endDistance: 0
+      density: 0
+      haloStrength: 0.5
+      flareStrength: 1
+      lightPath: 
+      light: {fileID: 0}
+      clearFlags: 0
+      backgroundColor: {r: 0, g: 0, b: 0, a: 0}
+      videoContentType: 5
+      downloadCompleted_Scene: {fileID: 0}
+      downloadUnCompleted_Scene: {fileID: 0}
+      lightingDataAsset: {fileID: 0}
+    timerOption:
+      timerType: 0
+      endTime: 0
+      limitTime: 0
+      textPath: 
+      buttonPath: 
+    xrOption:
+      xrType: 0
+      useFunction: 0
+      hapticAmplitude: 0
+      hapticDuration: 0
+      outlineColor: {r: 0, g: 0, b: 0, a: 0}
+  - visualType: 5
+    isFold: 1
+    _isFold: 1
+    checkPoint_End: 0
+    narrationOption:
+      soundType: 0
+      narrationType: 0
+      subtitleType: 0
+      clip: {fileID: 0}
+      isSameTime: 0
+      loop: 0
+      volume: 1
+      volumeFadeTime: 0
+      notRestoreBackground: 0
+      waitSecond: 1
+      useCheckPoint: 0
+      checkSubtitleList: []
+    animationOption:
+      animType: 0
+      charType: 0
+      clip: {fileID: 0}
+      isSame: 0
+    uiOption:
+      uiType: 2
+      objPath: UICanvas/2nd/MainMenu
+      isActive: 0
+      nextScene: {fileID: 0}
+      uiAnimationOption:
+        aniType: 0
+        time: 0
+        startPos: {x: 0, y: 0, z: 0}
+        endPos: {x: 0, y: 0, z: 0}
+        startA: 0
+        endA: 0
+        changeSprite: {fileID: 0}
+        changeText: 
+      pos_UI: {x: 0, y: 0, z: 0}
+      rot_UI: {x: 0, y: 0, z: 0}
+      breatheCnt: 0
+      useHoldBreath: 0
+      isSame: 0
+    fadeOption:
+      uiCanvasType: 0
+      startAlpha: 0
+      endAlpha: 0
+      time: 0
+      useLoadingUI: 0
+    videoOption:
+      videoType: 0
+      subtitleType: 0
+      state: 0
+      seekState: 0
+      urlPath: 
+      sTime: 0
+      eTime: 0
+      jumpLenth: 0
+      rotation: {x: 0, y: 0, z: 0}
+      position: {x: 0, y: 0, z: 0}
+      seekFrame: 0
+      useSubtitle: 0
+    layOption:
+      isOn: 0
+    waitOption:
+      waitTime: 0
+    objActiveOption:
+      ObjType: 0
+      rootParent: 
+      targetObjPath: 
+      isActive: 0
+      skyMat: {fileID: 0}
+      pos_Obj: {x: 0, y: 0, z: 0}
+      rot_Obj: {x: 0, y: 0, z: 0}
+      moveTime: 0
+      curveMove:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      moveOn: 0
+      bezierPos: 0
+      layerNum: 0
+      componentName: 
+      targetParentPath: 
+      targetParentRoot: 
+      cameraViewType: 0
+    sceneOption:
+      sceneMgrType: 0
+      sceneName: 
+      fogOn: 0
+      fogColor: {r: 0, g: 0, b: 0, a: 0}
+      fogMode: 0
+      startDistance: 0
+      endDistance: 0
+      density: 0
+      haloStrength: 0.5
+      flareStrength: 1
+      lightPath: 
+      light: {fileID: 0}
+      clearFlags: 0
+      backgroundColor: {r: 0, g: 0, b: 0, a: 0}
+      videoContentType: 0
+      downloadCompleted_Scene: {fileID: 0}
+      downloadUnCompleted_Scene: {fileID: 0}
+      lightingDataAsset: {fileID: 0}
+    timerOption:
+      timerType: 0
+      endTime: 0
+      limitTime: 0
+      textPath: 
+      buttonPath: 
+    xrOption:
+      xrType: 0
+      useFunction: 0
+      hapticAmplitude: 0
+      hapticDuration: 0
+      outlineColor: {r: 0, g: 0, b: 0, a: 0}
+  - visualType: 5
+    isFold: 1
+    _isFold: 1
+    checkPoint_End: 0
+    narrationOption:
+      soundType: 0
+      narrationType: 0
+      subtitleType: 0
+      clip: {fileID: 0}
+      isSameTime: 0
+      loop: 0
+      volume: 1
+      volumeFadeTime: 0
+      notRestoreBackground: 0
+      waitSecond: 1
+      useCheckPoint: 0
+      checkSubtitleList: []
+    animationOption:
+      animType: 0
+      charType: 0
+      clip: {fileID: 0}
+      isSame: 0
+    uiOption:
+      uiType: 2
+      objPath: UICanvas/2nd/Theater
+      isActive: 1
+      nextScene: {fileID: 0}
+      uiAnimationOption:
+        aniType: 0
+        time: 0
+        startPos: {x: 0, y: 0, z: 0}
+        endPos: {x: 0, y: 0, z: 0}
+        startA: 0
+        endA: 0
+        changeSprite: {fileID: 0}
+        changeText: 
+      pos_UI: {x: 0, y: 0, z: 0}
+      rot_UI: {x: 0, y: 0, z: 0}
+      breatheCnt: 0
+      useHoldBreath: 0
+      isSame: 0
+    fadeOption:
+      uiCanvasType: 0
+      startAlpha: 0
+      endAlpha: 0
+      time: 0
+      useLoadingUI: 0
+    videoOption:
+      videoType: 0
+      subtitleType: 0
+      state: 0
+      seekState: 0
+      urlPath: 
+      sTime: 0
+      eTime: 0
+      jumpLenth: 0
+      rotation: {x: 0, y: 0, z: 0}
+      position: {x: 0, y: 0, z: 0}
+      seekFrame: 0
+      useSubtitle: 0
+    layOption:
+      isOn: 0
+    waitOption:
+      waitTime: 0
+    objActiveOption:
+      ObjType: 0
+      rootParent: 
+      targetObjPath: 
+      isActive: 0
+      skyMat: {fileID: 0}
+      pos_Obj: {x: 0, y: 0, z: 0}
+      rot_Obj: {x: 0, y: 0, z: 0}
+      moveTime: 0
+      curveMove:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      moveOn: 0
+      bezierPos: 0
+      layerNum: 0
+      componentName: 
+      targetParentPath: 
+      targetParentRoot: 
+      cameraViewType: 0
+    sceneOption:
+      sceneMgrType: 0
+      sceneName: 
+      fogOn: 0
+      fogColor: {r: 0, g: 0, b: 0, a: 0}
+      fogMode: 0
+      startDistance: 0
+      endDistance: 0
+      density: 0
+      haloStrength: 0.5
+      flareStrength: 1
+      lightPath: 
+      light: {fileID: 0}
+      clearFlags: 0
+      backgroundColor: {r: 0, g: 0, b: 0, a: 0}
+      videoContentType: 0
+      downloadCompleted_Scene: {fileID: 0}
+      downloadUnCompleted_Scene: {fileID: 0}
+      lightingDataAsset: {fileID: 0}
+    timerOption:
+      timerType: 0
+      endTime: 0
+      limitTime: 0
+      textPath: 
+      buttonPath: 
+    xrOption:
+      xrType: 0
+      useFunction: 0
+      hapticAmplitude: 0
+      hapticDuration: 0
+      outlineColor: {r: 0, g: 0, b: 0, a: 0}
+  - visualType: 5
+    isFold: 1
+    _isFold: 1
+    checkPoint_End: 0
+    narrationOption:
+      soundType: 0
+      narrationType: 0
+      subtitleType: 0
+      clip: {fileID: 0}
+      isSameTime: 0
+      loop: 0
+      volume: 1
+      volumeFadeTime: 0
+      notRestoreBackground: 0
+      waitSecond: 1
+      useCheckPoint: 0
+      checkSubtitleList: []
+    animationOption:
+      animType: 0
+      charType: 0
+      clip: {fileID: 0}
+      isSame: 0
+    uiOption:
+      uiType: 3
+      objPath: UICanvas/2nd/Theater
+      isActive: 0
+      nextScene: {fileID: 0}
+      uiAnimationOption:
+        aniType: 0
+        time: 0
+        startPos: {x: 0, y: 0, z: 0}
+        endPos: {x: 0, y: 0, z: 0}
+        startA: 0
+        endA: 0
+        changeSprite: {fileID: 0}
+        changeText: 
+      pos_UI: {x: 0, y: 0, z: 0}
+      rot_UI: {x: 0, y: 0, z: 0}
+      breatheCnt: 0
+      useHoldBreath: 0
+      isSame: 0
+    fadeOption:
+      uiCanvasType: 0
+      startAlpha: 0
+      endAlpha: 0
+      time: 0
+      useLoadingUI: 0
+    videoOption:
+      videoType: 0
+      subtitleType: 0
+      state: 0
+      seekState: 0
+      urlPath: 
+      sTime: 0
+      eTime: 0
+      jumpLenth: 0
+      rotation: {x: 0, y: 0, z: 0}
+      position: {x: 0, y: 0, z: 0}
+      seekFrame: 0
+      useSubtitle: 0
+    layOption:
+      isOn: 0
+    waitOption:
+      waitTime: 0
+    objActiveOption:
+      ObjType: 0
+      rootParent: 
+      targetObjPath: 
+      isActive: 0
+      skyMat: {fileID: 0}
+      pos_Obj: {x: 0, y: 0, z: 0}
+      rot_Obj: {x: 0, y: 0, z: 0}
+      moveTime: 0
+      curveMove:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      moveOn: 0
+      bezierPos: 0
+      layerNum: 0
+      componentName: 
+      targetParentPath: 
+      targetParentRoot: 
+      cameraViewType: 0
+    sceneOption:
+      sceneMgrType: 0
+      sceneName: 
+      fogOn: 0
+      fogColor: {r: 0, g: 0, b: 0, a: 0}
+      fogMode: 0
+      startDistance: 0
+      endDistance: 0
+      density: 0
+      haloStrength: 0.5
+      flareStrength: 1
+      lightPath: 
+      light: {fileID: 0}
+      clearFlags: 0
+      backgroundColor: {r: 0, g: 0, b: 0, a: 0}
+      videoContentType: 0
+      downloadCompleted_Scene: {fileID: 0}
+      downloadUnCompleted_Scene: {fileID: 0}
+      lightingDataAsset: {fileID: 0}
+    timerOption:
+      timerType: 0
+      endTime: 0
+      limitTime: 0
+      textPath: 
+      buttonPath: 
+    xrOption:
+      xrType: 0
+      useFunction: 0
+      hapticAmplitude: 0
+      hapticDuration: 0
+      outlineColor: {r: 0, g: 0, b: 0, a: 0}
+  - visualType: 8
+    isFold: 1
+    _isFold: 1
+    checkPoint_End: 0
+    narrationOption:
+      soundType: 0
+      narrationType: 0
+      subtitleType: 0
+      clip: {fileID: 0}
+      isSameTime: 0
+      loop: 0
+      volume: 1
+      volumeFadeTime: 0
+      notRestoreBackground: 0
+      waitSecond: 1
+      useCheckPoint: 0
+      checkSubtitleList: []
+    animationOption:
+      animType: 0
+      charType: 0
+      clip: {fileID: 0}
+      isSame: 0
+    uiOption:
+      uiType: 0
+      objPath: 
+      isActive: 0
+      nextScene: {fileID: 0}
+      uiAnimationOption:
+        aniType: 0
+        time: 0
+        startPos: {x: 0, y: 0, z: 0}
+        endPos: {x: 0, y: 0, z: 0}
+        startA: 0
+        endA: 0
+        changeSprite: {fileID: 0}
+        changeText: 
+      pos_UI: {x: 0, y: 0, z: 0}
+      rot_UI: {x: 0, y: 0, z: 0}
+      breatheCnt: 0
+      useHoldBreath: 0
+      isSame: 0
+    fadeOption:
+      uiCanvasType: 0
+      startAlpha: 0
+      endAlpha: 0
+      time: 0
+      useLoadingUI: 0
+    videoOption:
+      videoType: 0
+      subtitleType: 0
+      state: 0
+      seekState: 0
+      urlPath: 
+      sTime: 0
+      eTime: 0
+      jumpLenth: 0
+      rotation: {x: 0, y: 0, z: 0}
+      position: {x: 0, y: 0, z: 0}
+      seekFrame: 0
+      useSubtitle: 0
+    layOption:
+      isOn: 0
+    waitOption:
+      waitTime: 0
+    objActiveOption:
+      ObjType: 1
+      rootParent: ---------------Video
+      targetObjPath: VR3D
+      isActive: 1
+      skyMat: {fileID: 0}
+      pos_Obj: {x: 0, y: 0, z: 0}
+      rot_Obj: {x: 0, y: 0, z: 0}
+      moveTime: 0
+      curveMove:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      moveOn: 0
+      bezierPos: 0
+      layerNum: 0
+      componentName: 
+      targetParentPath: 
+      targetParentRoot: 
+      cameraViewType: 0
+    sceneOption:
+      sceneMgrType: 0
+      sceneName: 
+      fogOn: 0
+      fogColor: {r: 0, g: 0, b: 0, a: 0}
+      fogMode: 0
+      startDistance: 0
+      endDistance: 0
+      density: 0
+      haloStrength: 0.5
+      flareStrength: 1
+      lightPath: 
+      light: {fileID: 0}
+      clearFlags: 0
+      backgroundColor: {r: 0, g: 0, b: 0, a: 0}
+      videoContentType: 0
+      downloadCompleted_Scene: {fileID: 0}
+      downloadUnCompleted_Scene: {fileID: 0}
+      lightingDataAsset: {fileID: 0}
+    timerOption:
+      timerType: 0
+      endTime: 0
+      limitTime: 0
+      textPath: 
+      buttonPath: 
+    xrOption:
+      xrType: 0
+      useFunction: 0
+      hapticAmplitude: 0
+      hapticDuration: 0
+      outlineColor: {r: 0, g: 0, b: 0, a: 0}
+  - visualType: 6
+    isFold: 1
+    _isFold: 1
+    checkPoint_End: 0
+    narrationOption:
+      soundType: 0
+      narrationType: 0
+      subtitleType: 0
+      clip: {fileID: 0}
+      isSameTime: 0
+      loop: 0
+      volume: 1
+      volumeFadeTime: 0
+      notRestoreBackground: 0
+      waitSecond: 1
+      useCheckPoint: 0
+      checkSubtitleList: []
+    animationOption:
+      animType: 0
+      charType: 0
+      clip: {fileID: 0}
+      isSame: 0
+    uiOption:
+      uiType: 0
+      objPath: 
+      isActive: 0
+      nextScene: {fileID: 0}
+      uiAnimationOption:
+        aniType: 0
+        time: 0
+        startPos: {x: 0, y: 0, z: 0}
+        endPos: {x: 0, y: 0, z: 0}
+        startA: 0
+        endA: 0
+        changeSprite: {fileID: 0}
+        changeText: 
+      pos_UI: {x: 0, y: 0, z: 0}
+      rot_UI: {x: 0, y: 0, z: 0}
+      breatheCnt: 0
+      useHoldBreath: 0
+      isSame: 0
+    fadeOption:
+      uiCanvasType: 0
+      startAlpha: 0
+      endAlpha: 0
+      time: 0
+      useLoadingUI: 0
+    videoOption:
+      videoType: 0
+      subtitleType: 0
+      state: 0
+      seekState: 0
+      urlPath: Theater_02.mp4
+      sTime: 0
+      eTime: 0
+      jumpLenth: 0
+      rotation: {x: 0, y: 0, z: 0}
+      position: {x: 0, y: 0, z: 0}
+      seekFrame: 0
+      useSubtitle: 0
+    layOption:
+      isOn: 0
+    waitOption:
+      waitTime: 0
+    objActiveOption:
+      ObjType: 0
+      rootParent: 
+      targetObjPath: 
+      isActive: 0
+      skyMat: {fileID: 0}
+      pos_Obj: {x: 0, y: 0, z: 0}
+      rot_Obj: {x: 0, y: 0, z: 0}
+      moveTime: 0
+      curveMove:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      moveOn: 0
+      bezierPos: 0
+      layerNum: 0
+      componentName: 
+      targetParentPath: 
+      targetParentRoot: 
+      cameraViewType: 0
+    sceneOption:
+      sceneMgrType: 0
+      sceneName: 
+      fogOn: 0
+      fogColor: {r: 0, g: 0, b: 0, a: 0}
+      fogMode: 0
+      startDistance: 0
+      endDistance: 0
+      density: 0
+      haloStrength: 0.5
+      flareStrength: 1
+      lightPath: 
+      light: {fileID: 0}
+      clearFlags: 0
+      backgroundColor: {r: 0, g: 0, b: 0, a: 0}
+      videoContentType: 0
+      downloadCompleted_Scene: {fileID: 0}
+      downloadUnCompleted_Scene: {fileID: 0}
+      lightingDataAsset: {fileID: 0}
+    timerOption:
+      timerType: 0
+      endTime: 0
+      limitTime: 0
+      textPath: 
+      buttonPath: 
+    xrOption:
+      xrType: 0
+      useFunction: 0
+      hapticAmplitude: 0
+      hapticDuration: 0
+      outlineColor: {r: 0, g: 0, b: 0, a: 0}
+  - visualType: 6
+    isFold: 1
+    _isFold: 1
+    checkPoint_End: 0
+    narrationOption:
+      soundType: 0
+      narrationType: 0
+      subtitleType: 0
+      clip: {fileID: 0}
+      isSameTime: 0
+      loop: 0
+      volume: 1
+      volumeFadeTime: 0
+      notRestoreBackground: 0
+      waitSecond: 1
+      useCheckPoint: 0
+      checkSubtitleList: []
+    animationOption:
+      animType: 0
+      charType: 0
+      clip: {fileID: 0}
+      isSame: 0
+    uiOption:
+      uiType: 0
+      objPath: 
+      isActive: 0
+      nextScene: {fileID: 0}
+      uiAnimationOption:
+        aniType: 0
+        time: 0
+        startPos: {x: 0, y: 0, z: 0}
+        endPos: {x: 0, y: 0, z: 0}
+        startA: 0
+        endA: 0
+        changeSprite: {fileID: 0}
+        changeText: 
+      pos_UI: {x: 0, y: 0, z: 0}
+      rot_UI: {x: 0, y: 0, z: 0}
+      breatheCnt: 0
+      useHoldBreath: 0
+      isSame: 0
+    fadeOption:
+      uiCanvasType: 0
+      startAlpha: 0
+      endAlpha: 0
+      time: 0
+      useLoadingUI: 0
+    videoOption:
+      videoType: 0
+      subtitleType: 1
+      state: 1
+      seekState: 0
+      urlPath: 
+      sTime: 0
+      eTime: 0
+      jumpLenth: 0
+      rotation: {x: 0, y: 0, z: 0}
+      position: {x: 0, y: 0, z: 0}
+      seekFrame: 0
+      useSubtitle: 0
+    layOption:
+      isOn: 0
+    waitOption:
+      waitTime: 0
+    objActiveOption:
+      ObjType: 0
+      rootParent: 
+      targetObjPath: 
+      isActive: 0
+      skyMat: {fileID: 0}
+      pos_Obj: {x: 0, y: 0, z: 0}
+      rot_Obj: {x: 0, y: 0, z: 0}
+      moveTime: 0
+      curveMove:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      moveOn: 0
+      bezierPos: 0
+      layerNum: 0
+      componentName: 
+      targetParentPath: 
+      targetParentRoot: 
+      cameraViewType: 0
+    sceneOption:
+      sceneMgrType: 0
+      sceneName: 
+      fogOn: 0
+      fogColor: {r: 0, g: 0, b: 0, a: 0}
+      fogMode: 0
+      startDistance: 0
+      endDistance: 0
+      density: 0
+      haloStrength: 0.5
+      flareStrength: 1
+      lightPath: 
+      light: {fileID: 0}
+      clearFlags: 0
+      backgroundColor: {r: 0, g: 0, b: 0, a: 0}
+      videoContentType: 0
+      downloadCompleted_Scene: {fileID: 0}
+      downloadUnCompleted_Scene: {fileID: 0}
+      lightingDataAsset: {fileID: 0}
+    timerOption:
+      timerType: 0
+      endTime: 0
+      limitTime: 0
+      textPath: 
+      buttonPath: 
+    xrOption:
+      xrType: 0
+      useFunction: 0
+      hapticAmplitude: 0
+      hapticDuration: 0
+      outlineColor: {r: 0, g: 0, b: 0, a: 0}
+  - visualType: 4
+    isFold: 1
+    _isFold: 1
+    checkPoint_End: 0
+    narrationOption:
+      soundType: 0
+      narrationType: 0
+      subtitleType: 0
+      clip: {fileID: 0}
+      isSameTime: 0
+      loop: 0
+      volume: 1
+      volumeFadeTime: 0
+      notRestoreBackground: 0
+      waitSecond: 1
+      useCheckPoint: 0
+      checkSubtitleList: []
+    animationOption:
+      animType: 0
+      charType: 0
+      clip: {fileID: 0}
+      isSame: 0
+    uiOption:
+      uiType: 0
+      objPath: 
+      isActive: 0
+      nextScene: {fileID: 0}
+      uiAnimationOption:
+        aniType: 0
+        time: 0
+        startPos: {x: 0, y: 0, z: 0}
+        endPos: {x: 0, y: 0, z: 0}
+        startA: 0
+        endA: 0
+        changeSprite: {fileID: 0}
+        changeText: 
+      pos_UI: {x: 0, y: 0, z: 0}
+      rot_UI: {x: 0, y: 0, z: 0}
+      breatheCnt: 0
+      useHoldBreath: 0
+      isSame: 0
+    fadeOption:
+      uiCanvasType: 2
+      startAlpha: 1
+      endAlpha: 0
+      time: 2
+      useLoadingUI: 0
+    videoOption:
+      videoType: 0
+      subtitleType: 0
+      state: 0
+      seekState: 0
+      urlPath: 
+      sTime: 0
+      eTime: 0
+      jumpLenth: 0
+      rotation: {x: 0, y: 0, z: 0}
+      position: {x: 0, y: 0, z: 0}
+      seekFrame: 0
+      useSubtitle: 0
+    layOption:
+      isOn: 0
+    waitOption:
+      waitTime: 0
+    objActiveOption:
+      ObjType: 0
+      rootParent: 
+      targetObjPath: 
+      isActive: 0
+      skyMat: {fileID: 0}
+      pos_Obj: {x: 0, y: 0, z: 0}
+      rot_Obj: {x: 0, y: 0, z: 0}
+      moveTime: 0
+      curveMove:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      moveOn: 0
+      bezierPos: 0
+      layerNum: 0
+      componentName: 
+      targetParentPath: 
+      targetParentRoot: 
+      cameraViewType: 0
+    sceneOption:
+      sceneMgrType: 0
+      sceneName: 
+      fogOn: 0
+      fogColor: {r: 0, g: 0, b: 0, a: 0}
+      fogMode: 0
+      startDistance: 0
+      endDistance: 0
+      density: 0
+      haloStrength: 0.5
+      flareStrength: 1
+      lightPath: 
+      light: {fileID: 0}
+      clearFlags: 0
+      backgroundColor: {r: 0, g: 0, b: 0, a: 0}
+      videoContentType: 0
+      downloadCompleted_Scene: {fileID: 0}
+      downloadUnCompleted_Scene: {fileID: 0}
+      lightingDataAsset: {fileID: 0}
+    timerOption:
+      timerType: 0
+      endTime: 0
+      limitTime: 0
+      textPath: 
+      buttonPath: 
+    xrOption:
+      xrType: 0
+      useFunction: 0
+      hapticAmplitude: 0
+      hapticDuration: 0
+      outlineColor: {r: 0, g: 0, b: 0, a: 0}
+  nextScene: {fileID: 11400000, guid: 835c679d35902724a9aceb16607e1450, type: 2}
+  canRepeat: 0
+  canCameraView: 0
+  canSkip: 0

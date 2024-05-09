@@ -1,0 +1,1475 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b32e5c1ceec10f04990542eef870225d, type: 3}
+  m_Name: 11. MainMenu_01
+  m_EditorClassIdentifier: 
+  sceneID: 
+  cutDataList:
+  - visualType: 3
+    isFold: 1
+    narrationOption:
+      soundType: 0
+      narrationType: 0
+      clip: {fileID: 0}
+      isSameTime: 0
+      loop: 0
+      volume: 0
+      volumeFadeTime: 0
+    animationOption:
+      animType: 0
+      charType: 0
+      clip: {fileID: 0}
+      isSame: 0
+    uiOption:
+      uiType: 0
+      objPath: 
+      isActive: 0
+      nextScene: {fileID: 0}
+      uiAnimationOption:
+        aniType: 0
+        time: 0
+        startPos: {x: 0, y: 0, z: 0}
+        endPos: {x: 0, y: 0, z: 0}
+        startA: 0
+        endA: 0
+        changeSprite: {fileID: 0}
+        changeText: 
+      pos_UI: {x: 0, y: 0, z: 0}
+      rot_UI: {x: 0, y: 0, z: 0}
+      breatheCnt: 0
+      isSame: 0
+    fadeOption:
+      uiCanvasType: 0
+      startAlpha: 0
+      endAlpha: 0
+      time: 0
+      useLoadingUI: 0
+    videoOption:
+      videoType: 0
+      state: 0
+      seekState: 0
+      urlPath: 
+      sTime: 0
+      eTime: 0
+      jumpLenth: 0
+      rotation: {x: 0, y: 0, z: 0}
+      position: {x: 0, y: 0, z: 0}
+      seekFrame: 0
+      videoClip: {fileID: 0}
+    layOption:
+      isOn: 0
+    waitOption:
+      waitTime: 4
+    objActiveOption:
+      ObjType: 0
+      rootParent: 
+      targetObjPath: 
+      isActive: 0
+      skyMat: {fileID: 0}
+      pos_Obj: {x: 0, y: 0, z: 0}
+      rot_Obj: {x: 0, y: 0, z: 0}
+      moveTime: 0
+      curveMove:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      moveOn: 0
+      bezierPos: 0
+      layerNum: 0
+      componentName: 
+      targetParentPath: 
+      targetParentRoot: 
+      cameraViewType: 0
+    sceneOption:
+      sceneMgrType: 0
+      sceneName: 
+      fogOn: 0
+      fogColor: {r: 0, g: 0, b: 0, a: 0}
+      fogMode: 0
+      startDistance: 0
+      endDistance: 0
+      density: 0
+      haloStrength: 0.5
+      flareStrength: 1
+      lightPath: 
+      light: {fileID: 0}
+      lightingDataAsset: {fileID: 0}
+    timerOption:
+      timerType: 0
+      endTime: 0
+      limitTime: 0
+      textPath: 
+      buttonPath: 
+  - visualType: 1
+    isFold: 1
+    narrationOption:
+      soundType: 0
+      narrationType: 0
+      clip: {fileID: 8300000, guid: bb029f144a39b3442a8104fcd120366a, type: 3}
+      isSameTime: 1
+      loop: 0
+      volume: 1
+      volumeFadeTime: 0
+    animationOption:
+      animType: 0
+      charType: 0
+      clip: {fileID: 0}
+      isSame: 0
+    uiOption:
+      uiType: 0
+      objPath: 
+      isActive: 0
+      nextScene: {fileID: 0}
+      uiAnimationOption:
+        aniType: 0
+        time: 0
+        startPos: {x: 0, y: 0, z: 0}
+        endPos: {x: 0, y: 0, z: 0}
+        startA: 0
+        endA: 0
+        changeSprite: {fileID: 0}
+        changeText: 
+      pos_UI: {x: 0, y: 0, z: 0}
+      rot_UI: {x: 0, y: 0, z: 0}
+      breatheCnt: 0
+      isSame: 0
+    fadeOption:
+      uiCanvasType: 0
+      startAlpha: 0
+      endAlpha: 0
+      time: 0
+      useLoadingUI: 0
+    videoOption:
+      videoType: 0
+      state: 0
+      seekState: 0
+      urlPath: 
+      sTime: 0
+      eTime: 0
+      jumpLenth: 0
+      rotation: {x: 0, y: 0, z: 0}
+      position: {x: 0, y: 0, z: 0}
+      seekFrame: 0
+      videoClip: {fileID: 0}
+    layOption:
+      isOn: 0
+    waitOption:
+      waitTime: 0
+    objActiveOption:
+      ObjType: 0
+      rootParent: 
+      targetObjPath: 
+      isActive: 0
+      skyMat: {fileID: 0}
+      pos_Obj: {x: 0, y: 0, z: 0}
+      rot_Obj: {x: 0, y: 0, z: 0}
+      moveTime: 0
+      curveMove:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      moveOn: 0
+      bezierPos: 0
+      layerNum: 0
+      componentName: 
+      targetParentPath: 
+      targetParentRoot: 
+      cameraViewType: 0
+    sceneOption:
+      sceneMgrType: 0
+      sceneName: 
+      fogOn: 0
+      fogColor: {r: 0, g: 0, b: 0, a: 0}
+      fogMode: 0
+      startDistance: 0
+      endDistance: 0
+      density: 0
+      haloStrength: 0.5
+      flareStrength: 1
+      lightPath: 
+      light: {fileID: 0}
+      lightingDataAsset: {fileID: 0}
+    timerOption:
+      timerType: 0
+      endTime: 0
+      limitTime: 0
+      textPath: 
+      buttonPath: 
+  - visualType: 2
+    isFold: 1
+    narrationOption:
+      soundType: 0
+      narrationType: 0
+      clip: {fileID: 0}
+      isSameTime: 0
+      loop: 0
+      volume: 0
+      volumeFadeTime: 0
+    animationOption:
+      animType: 1
+      charType: 0
+      clip: {fileID: 0}
+      isSame: 0
+    uiOption:
+      uiType: 0
+      objPath: 
+      isActive: 0
+      nextScene: {fileID: 0}
+      uiAnimationOption:
+        aniType: 0
+        time: 0
+        startPos: {x: 0, y: 0, z: 0}
+        endPos: {x: 0, y: 0, z: 0}
+        startA: 0
+        endA: 0
+        changeSprite: {fileID: 0}
+        changeText: 
+      pos_UI: {x: 0, y: 0, z: 0}
+      rot_UI: {x: 0, y: 0, z: 0}
+      breatheCnt: 0
+      isSame: 0
+    fadeOption:
+      uiCanvasType: 0
+      startAlpha: 0
+      endAlpha: 0
+      time: 0
+      useLoadingUI: 0
+    videoOption:
+      videoType: 0
+      state: 0
+      seekState: 0
+      urlPath: 
+      sTime: 0
+      eTime: 0
+      jumpLenth: 0
+      rotation: {x: 0, y: 0, z: 0}
+      position: {x: 0, y: 0, z: 0}
+      seekFrame: 0
+      videoClip: {fileID: 0}
+    layOption:
+      isOn: 0
+    waitOption:
+      waitTime: 0
+    objActiveOption:
+      ObjType: 0
+      rootParent: 
+      targetObjPath: 
+      isActive: 0
+      skyMat: {fileID: 0}
+      pos_Obj: {x: 0, y: 0, z: 0}
+      rot_Obj: {x: 0, y: 0, z: 0}
+      moveTime: 0
+      curveMove:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      moveOn: 0
+      bezierPos: 0
+      layerNum: 0
+      componentName: 
+      targetParentPath: 
+      targetParentRoot: 
+      cameraViewType: 0
+    sceneOption:
+      sceneMgrType: 0
+      sceneName: 
+      fogOn: 0
+      fogColor: {r: 0, g: 0, b: 0, a: 0}
+      fogMode: 0
+      startDistance: 0
+      endDistance: 0
+      density: 0
+      haloStrength: 0.5
+      flareStrength: 1
+      lightPath: 
+      light: {fileID: 0}
+      lightingDataAsset: {fileID: 0}
+    timerOption:
+      timerType: 0
+      endTime: 0
+      limitTime: 0
+      textPath: 
+      buttonPath: 
+  - visualType: 2
+    isFold: 1
+    narrationOption:
+      soundType: 0
+      narrationType: 0
+      clip: {fileID: 0}
+      isSameTime: 0
+      loop: 0
+      volume: 0
+      volumeFadeTime: 0
+    animationOption:
+      animType: 0
+      charType: 1
+      clip: {fileID: 1827226128182048838, guid: b0e55dd60f6ed1546abbace54fb4d151, type: 3}
+      isSame: 0
+    uiOption:
+      uiType: 0
+      objPath: 
+      isActive: 0
+      nextScene: {fileID: 0}
+      uiAnimationOption:
+        aniType: 0
+        time: 0
+        startPos: {x: 0, y: 0, z: 0}
+        endPos: {x: 0, y: 0, z: 0}
+        startA: 0
+        endA: 0
+        changeSprite: {fileID: 0}
+        changeText: 
+      pos_UI: {x: 0, y: 0, z: 0}
+      rot_UI: {x: 0, y: 0, z: 0}
+      breatheCnt: 0
+      isSame: 0
+    fadeOption:
+      uiCanvasType: 0
+      startAlpha: 0
+      endAlpha: 0
+      time: 0
+      useLoadingUI: 0
+    videoOption:
+      videoType: 0
+      state: 0
+      seekState: 0
+      urlPath: 
+      sTime: 0
+      eTime: 0
+      jumpLenth: 0
+      rotation: {x: 0, y: 0, z: 0}
+      position: {x: 0, y: 0, z: 0}
+      seekFrame: 0
+      videoClip: {fileID: 0}
+    layOption:
+      isOn: 0
+    waitOption:
+      waitTime: 0
+    objActiveOption:
+      ObjType: 0
+      rootParent: 
+      targetObjPath: 
+      isActive: 0
+      skyMat: {fileID: 0}
+      pos_Obj: {x: 0, y: 0, z: 0}
+      rot_Obj: {x: 0, y: 0, z: 0}
+      moveTime: 0
+      curveMove:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      moveOn: 0
+      bezierPos: 0
+      layerNum: 0
+      componentName: 
+      targetParentPath: 
+      targetParentRoot: 
+      cameraViewType: 0
+    sceneOption:
+      sceneMgrType: 0
+      sceneName: 
+      fogOn: 0
+      fogColor: {r: 0, g: 0, b: 0, a: 0}
+      fogMode: 0
+      startDistance: 0
+      endDistance: 0
+      density: 0
+      haloStrength: 0.5
+      flareStrength: 1
+      lightPath: 
+      light: {fileID: 0}
+      lightingDataAsset: {fileID: 0}
+    timerOption:
+      timerType: 0
+      endTime: 0
+      limitTime: 0
+      textPath: 
+      buttonPath: 
+  - visualType: 2
+    isFold: 1
+    narrationOption:
+      soundType: 0
+      narrationType: 0
+      clip: {fileID: 0}
+      isSameTime: 0
+      loop: 0
+      volume: 0
+      volumeFadeTime: 0
+    animationOption:
+      animType: 0
+      charType: 3
+      clip: {fileID: 7400000, guid: c7e2964edc97ff04cade21e65535744a, type: 2}
+      isSame: 1
+    uiOption:
+      uiType: 0
+      objPath: 
+      isActive: 0
+      nextScene: {fileID: 0}
+      uiAnimationOption:
+        aniType: 0
+        time: 0
+        startPos: {x: 0, y: 0, z: 0}
+        endPos: {x: 0, y: 0, z: 0}
+        startA: 0
+        endA: 0
+        changeSprite: {fileID: 0}
+        changeText: 
+      pos_UI: {x: 0, y: 0, z: 0}
+      rot_UI: {x: 0, y: 0, z: 0}
+      breatheCnt: 0
+      isSame: 0
+    fadeOption:
+      uiCanvasType: 0
+      startAlpha: 0
+      endAlpha: 0
+      time: 0
+      useLoadingUI: 0
+    videoOption:
+      videoType: 0
+      state: 0
+      seekState: 0
+      urlPath: 
+      sTime: 0
+      eTime: 0
+      jumpLenth: 0
+      rotation: {x: 0, y: 0, z: 0}
+      position: {x: 0, y: 0, z: 0}
+      seekFrame: 0
+      videoClip: {fileID: 0}
+    layOption:
+      isOn: 0
+    waitOption:
+      waitTime: 0
+    objActiveOption:
+      ObjType: 0
+      rootParent: 
+      targetObjPath: 
+      isActive: 0
+      skyMat: {fileID: 0}
+      pos_Obj: {x: 0, y: 0, z: 0}
+      rot_Obj: {x: 0, y: 0, z: 0}
+      moveTime: 0
+      curveMove:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      moveOn: 0
+      bezierPos: 0
+      layerNum: 0
+      componentName: 
+      targetParentPath: 
+      targetParentRoot: 
+      cameraViewType: 0
+    sceneOption:
+      sceneMgrType: 0
+      sceneName: 
+      fogOn: 0
+      fogColor: {r: 0, g: 0, b: 0, a: 0}
+      fogMode: 0
+      startDistance: 0
+      endDistance: 0
+      density: 0
+      haloStrength: 0.5
+      flareStrength: 1
+      lightPath: 
+      light: {fileID: 0}
+      lightingDataAsset: {fileID: 0}
+    timerOption:
+      timerType: 0
+      endTime: 0
+      limitTime: 0
+      textPath: 
+      buttonPath: 
+  - visualType: 3
+    isFold: 1
+    narrationOption:
+      soundType: 0
+      narrationType: 0
+      clip: {fileID: 0}
+      isSameTime: 0
+      loop: 0
+      volume: 0
+      volumeFadeTime: 0
+    animationOption:
+      animType: 0
+      charType: 0
+      clip: {fileID: 0}
+      isSame: 0
+    uiOption:
+      uiType: 0
+      objPath: 
+      isActive: 0
+      nextScene: {fileID: 0}
+      uiAnimationOption:
+        aniType: 0
+        time: 0
+        startPos: {x: 0, y: 0, z: 0}
+        endPos: {x: 0, y: 0, z: 0}
+        startA: 0
+        endA: 0
+        changeSprite: {fileID: 0}
+        changeText: 
+      pos_UI: {x: 0, y: 0, z: 0}
+      rot_UI: {x: 0, y: 0, z: 0}
+      breatheCnt: 0
+      isSame: 0
+    fadeOption:
+      uiCanvasType: 0
+      startAlpha: 0
+      endAlpha: 0
+      time: 0
+      useLoadingUI: 0
+    videoOption:
+      videoType: 0
+      state: 0
+      seekState: 0
+      urlPath: 
+      sTime: 0
+      eTime: 0
+      jumpLenth: 0
+      rotation: {x: 0, y: 0, z: 0}
+      position: {x: 0, y: 0, z: 0}
+      seekFrame: 0
+      videoClip: {fileID: 0}
+    layOption:
+      isOn: 0
+    waitOption:
+      waitTime: 1.5
+    objActiveOption:
+      ObjType: 0
+      rootParent: 
+      targetObjPath: 
+      isActive: 0
+      skyMat: {fileID: 0}
+      pos_Obj: {x: 0, y: 0, z: 0}
+      rot_Obj: {x: 0, y: 0, z: 0}
+      moveTime: 0
+      curveMove:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      moveOn: 0
+      bezierPos: 0
+      layerNum: 0
+      componentName: 
+      targetParentPath: 
+      targetParentRoot: 
+      cameraViewType: 0
+    sceneOption:
+      sceneMgrType: 0
+      sceneName: 
+      fogOn: 0
+      fogColor: {r: 0, g: 0, b: 0, a: 0}
+      fogMode: 0
+      startDistance: 0
+      endDistance: 0
+      density: 0
+      haloStrength: 0.5
+      flareStrength: 1
+      lightPath: 
+      light: {fileID: 0}
+      lightingDataAsset: {fileID: 0}
+    timerOption:
+      timerType: 0
+      endTime: 0
+      limitTime: 0
+      textPath: 
+      buttonPath: 
+  - visualType: 2
+    isFold: 1
+    narrationOption:
+      soundType: 0
+      narrationType: 0
+      clip: {fileID: 0}
+      isSameTime: 0
+      loop: 0
+      volume: 0
+      volumeFadeTime: 0
+    animationOption:
+      animType: 0
+      charType: 3
+      clip: {fileID: 3060872287085348379, guid: 4ceb50c00c3b99d40be388637ffb3e43, type: 3}
+      isSame: 1
+    uiOption:
+      uiType: 0
+      objPath: 
+      isActive: 0
+      nextScene: {fileID: 0}
+      uiAnimationOption:
+        aniType: 0
+        time: 0
+        startPos: {x: 0, y: 0, z: 0}
+        endPos: {x: 0, y: 0, z: 0}
+        startA: 0
+        endA: 0
+        changeSprite: {fileID: 0}
+        changeText: 
+      pos_UI: {x: 0, y: 0, z: 0}
+      rot_UI: {x: 0, y: 0, z: 0}
+      breatheCnt: 0
+      isSame: 0
+    fadeOption:
+      uiCanvasType: 0
+      startAlpha: 0
+      endAlpha: 0
+      time: 0
+      useLoadingUI: 0
+    videoOption:
+      videoType: 0
+      state: 0
+      seekState: 0
+      urlPath: 
+      sTime: 0
+      eTime: 0
+      jumpLenth: 0
+      rotation: {x: 0, y: 0, z: 0}
+      position: {x: 0, y: 0, z: 0}
+      seekFrame: 0
+      videoClip: {fileID: 0}
+    layOption:
+      isOn: 0
+    waitOption:
+      waitTime: 0
+    objActiveOption:
+      ObjType: 0
+      rootParent: 
+      targetObjPath: 
+      isActive: 0
+      skyMat: {fileID: 0}
+      pos_Obj: {x: 0, y: 0, z: 0}
+      rot_Obj: {x: 0, y: 0, z: 0}
+      moveTime: 0
+      curveMove:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      moveOn: 0
+      bezierPos: 0
+      layerNum: 0
+      componentName: 
+      targetParentPath: 
+      targetParentRoot: 
+      cameraViewType: 0
+    sceneOption:
+      sceneMgrType: 0
+      sceneName: 
+      fogOn: 0
+      fogColor: {r: 0, g: 0, b: 0, a: 0}
+      fogMode: 0
+      startDistance: 0
+      endDistance: 0
+      density: 0
+      haloStrength: 0.5
+      flareStrength: 1
+      lightPath: 
+      light: {fileID: 0}
+      lightingDataAsset: {fileID: 0}
+    timerOption:
+      timerType: 0
+      endTime: 0
+      limitTime: 0
+      textPath: 
+      buttonPath: 
+  - visualType: 3
+    isFold: 1
+    narrationOption:
+      soundType: 0
+      narrationType: 0
+      clip: {fileID: 0}
+      isSameTime: 0
+      loop: 0
+      volume: 0
+      volumeFadeTime: 0
+    animationOption:
+      animType: 0
+      charType: 0
+      clip: {fileID: 0}
+      isSame: 0
+    uiOption:
+      uiType: 0
+      objPath: 
+      isActive: 0
+      nextScene: {fileID: 0}
+      uiAnimationOption:
+        aniType: 0
+        time: 0
+        startPos: {x: 0, y: 0, z: 0}
+        endPos: {x: 0, y: 0, z: 0}
+        startA: 0
+        endA: 0
+        changeSprite: {fileID: 0}
+        changeText: 
+      pos_UI: {x: 0, y: 0, z: 0}
+      rot_UI: {x: 0, y: 0, z: 0}
+      breatheCnt: 0
+      isSame: 0
+    fadeOption:
+      uiCanvasType: 0
+      startAlpha: 0
+      endAlpha: 0
+      time: 0
+      useLoadingUI: 0
+    videoOption:
+      videoType: 0
+      state: 0
+      seekState: 0
+      urlPath: 
+      sTime: 0
+      eTime: 0
+      jumpLenth: 0
+      rotation: {x: 0, y: 0, z: 0}
+      position: {x: 0, y: 0, z: 0}
+      seekFrame: 0
+      videoClip: {fileID: 0}
+    layOption:
+      isOn: 0
+    waitOption:
+      waitTime: 0.6
+    objActiveOption:
+      ObjType: 0
+      rootParent: 
+      targetObjPath: 
+      isActive: 0
+      skyMat: {fileID: 0}
+      pos_Obj: {x: 0, y: 0, z: 0}
+      rot_Obj: {x: 0, y: 0, z: 0}
+      moveTime: 0
+      curveMove:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      moveOn: 0
+      bezierPos: 0
+      layerNum: 0
+      componentName: 
+      targetParentPath: 
+      targetParentRoot: 
+      cameraViewType: 0
+    sceneOption:
+      sceneMgrType: 0
+      sceneName: 
+      fogOn: 0
+      fogColor: {r: 0, g: 0, b: 0, a: 0}
+      fogMode: 0
+      startDistance: 0
+      endDistance: 0
+      density: 0
+      haloStrength: 0.5
+      flareStrength: 1
+      lightPath: 
+      light: {fileID: 0}
+      lightingDataAsset: {fileID: 0}
+    timerOption:
+      timerType: 0
+      endTime: 0
+      limitTime: 0
+      textPath: 
+      buttonPath: 
+  - visualType: 2
+    isFold: 1
+    narrationOption:
+      soundType: 0
+      narrationType: 0
+      clip: {fileID: 0}
+      isSameTime: 0
+      loop: 0
+      volume: 0
+      volumeFadeTime: 0
+    animationOption:
+      animType: 0
+      charType: 5
+      clip: {fileID: 7400000, guid: 2033deeee9606fd4ea1f147aa41a2fd1, type: 2}
+      isSame: 1
+    uiOption:
+      uiType: 0
+      objPath: 
+      isActive: 0
+      nextScene: {fileID: 0}
+      uiAnimationOption:
+        aniType: 0
+        time: 0
+        startPos: {x: 0, y: 0, z: 0}
+        endPos: {x: 0, y: 0, z: 0}
+        startA: 0
+        endA: 0
+        changeSprite: {fileID: 0}
+        changeText: 
+      pos_UI: {x: 0, y: 0, z: 0}
+      rot_UI: {x: 0, y: 0, z: 0}
+      breatheCnt: 0
+      isSame: 0
+    fadeOption:
+      uiCanvasType: 0
+      startAlpha: 0
+      endAlpha: 0
+      time: 0
+      useLoadingUI: 0
+    videoOption:
+      videoType: 0
+      state: 0
+      seekState: 0
+      urlPath: 
+      sTime: 0
+      eTime: 0
+      jumpLenth: 0
+      rotation: {x: 0, y: 0, z: 0}
+      position: {x: 0, y: 0, z: 0}
+      seekFrame: 0
+      videoClip: {fileID: 0}
+    layOption:
+      isOn: 0
+    waitOption:
+      waitTime: 0
+    objActiveOption:
+      ObjType: 0
+      rootParent: 
+      targetObjPath: 
+      isActive: 0
+      skyMat: {fileID: 0}
+      pos_Obj: {x: 0, y: 0, z: 0}
+      rot_Obj: {x: 0, y: 0, z: 0}
+      moveTime: 0
+      curveMove:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      moveOn: 0
+      bezierPos: 0
+      layerNum: 0
+      componentName: 
+      targetParentPath: 
+      targetParentRoot: 
+      cameraViewType: 0
+    sceneOption:
+      sceneMgrType: 0
+      sceneName: 
+      fogOn: 0
+      fogColor: {r: 0, g: 0, b: 0, a: 0}
+      fogMode: 0
+      startDistance: 0
+      endDistance: 0
+      density: 0
+      haloStrength: 0.5
+      flareStrength: 1
+      lightPath: 
+      light: {fileID: 0}
+      lightingDataAsset: {fileID: 0}
+    timerOption:
+      timerType: 0
+      endTime: 0
+      limitTime: 0
+      textPath: 
+      buttonPath: 
+  - visualType: 3
+    isFold: 1
+    narrationOption:
+      soundType: 0
+      narrationType: 0
+      clip: {fileID: 0}
+      isSameTime: 0
+      loop: 0
+      volume: 0
+      volumeFadeTime: 0
+    animationOption:
+      animType: 0
+      charType: 0
+      clip: {fileID: 0}
+      isSame: 0
+    uiOption:
+      uiType: 0
+      objPath: 
+      isActive: 0
+      nextScene: {fileID: 0}
+      uiAnimationOption:
+        aniType: 0
+        time: 0
+        startPos: {x: 0, y: 0, z: 0}
+        endPos: {x: 0, y: 0, z: 0}
+        startA: 0
+        endA: 0
+        changeSprite: {fileID: 0}
+        changeText: 
+      pos_UI: {x: 0, y: 0, z: 0}
+      rot_UI: {x: 0, y: 0, z: 0}
+      breatheCnt: 0
+      isSame: 0
+    fadeOption:
+      uiCanvasType: 0
+      startAlpha: 0
+      endAlpha: 0
+      time: 0
+      useLoadingUI: 0
+    videoOption:
+      videoType: 0
+      state: 0
+      seekState: 0
+      urlPath: 
+      sTime: 0
+      eTime: 0
+      jumpLenth: 0
+      rotation: {x: 0, y: 0, z: 0}
+      position: {x: 0, y: 0, z: 0}
+      seekFrame: 0
+      videoClip: {fileID: 0}
+    layOption:
+      isOn: 0
+    waitOption:
+      waitTime: 1.5
+    objActiveOption:
+      ObjType: 0
+      rootParent: 
+      targetObjPath: 
+      isActive: 0
+      skyMat: {fileID: 0}
+      pos_Obj: {x: 0, y: 0, z: 0}
+      rot_Obj: {x: 0, y: 0, z: 0}
+      moveTime: 0
+      curveMove:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      moveOn: 0
+      bezierPos: 0
+      layerNum: 0
+      componentName: 
+      targetParentPath: 
+      targetParentRoot: 
+      cameraViewType: 0
+    sceneOption:
+      sceneMgrType: 0
+      sceneName: 
+      fogOn: 0
+      fogColor: {r: 0, g: 0, b: 0, a: 0}
+      fogMode: 0
+      startDistance: 0
+      endDistance: 0
+      density: 0
+      haloStrength: 0.5
+      flareStrength: 1
+      lightPath: 
+      light: {fileID: 0}
+      lightingDataAsset: {fileID: 0}
+    timerOption:
+      timerType: 0
+      endTime: 0
+      limitTime: 0
+      textPath: 
+      buttonPath: 
+  - visualType: 2
+    isFold: 1
+    narrationOption:
+      soundType: 0
+      narrationType: 0
+      clip: {fileID: 0}
+      isSameTime: 0
+      loop: 0
+      volume: 0
+      volumeFadeTime: 0
+    animationOption:
+      animType: 0
+      charType: 5
+      clip: {fileID: 1827226128182048838, guid: 6610cc6d322ffde469972b454a3ba054, type: 3}
+      isSame: 1
+    uiOption:
+      uiType: 0
+      objPath: 
+      isActive: 0
+      nextScene: {fileID: 0}
+      uiAnimationOption:
+        aniType: 0
+        time: 0
+        startPos: {x: 0, y: 0, z: 0}
+        endPos: {x: 0, y: 0, z: 0}
+        startA: 0
+        endA: 0
+        changeSprite: {fileID: 0}
+        changeText: 
+      pos_UI: {x: 0, y: 0, z: 0}
+      rot_UI: {x: 0, y: 0, z: 0}
+      breatheCnt: 0
+      isSame: 0
+    fadeOption:
+      uiCanvasType: 0
+      startAlpha: 0
+      endAlpha: 0
+      time: 0
+      useLoadingUI: 0
+    videoOption:
+      videoType: 0
+      state: 0
+      seekState: 0
+      urlPath: 
+      sTime: 0
+      eTime: 0
+      jumpLenth: 0
+      rotation: {x: 0, y: 0, z: 0}
+      position: {x: 0, y: 0, z: 0}
+      seekFrame: 0
+      videoClip: {fileID: 0}
+    layOption:
+      isOn: 0
+    waitOption:
+      waitTime: 0
+    objActiveOption:
+      ObjType: 0
+      rootParent: 
+      targetObjPath: 
+      isActive: 0
+      skyMat: {fileID: 0}
+      pos_Obj: {x: 0, y: 0, z: 0}
+      rot_Obj: {x: 0, y: 0, z: 0}
+      moveTime: 0
+      curveMove:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      moveOn: 0
+      bezierPos: 0
+      layerNum: 0
+      componentName: 
+      targetParentPath: 
+      targetParentRoot: 
+      cameraViewType: 0
+    sceneOption:
+      sceneMgrType: 0
+      sceneName: 
+      fogOn: 0
+      fogColor: {r: 0, g: 0, b: 0, a: 0}
+      fogMode: 0
+      startDistance: 0
+      endDistance: 0
+      density: 0
+      haloStrength: 0.5
+      flareStrength: 1
+      lightPath: 
+      light: {fileID: 0}
+      lightingDataAsset: {fileID: 0}
+    timerOption:
+      timerType: 0
+      endTime: 0
+      limitTime: 0
+      textPath: 
+      buttonPath: 
+  - visualType: 3
+    isFold: 1
+    narrationOption:
+      soundType: 0
+      narrationType: 0
+      clip: {fileID: 0}
+      isSameTime: 0
+      loop: 0
+      volume: 0
+      volumeFadeTime: 0
+    animationOption:
+      animType: 0
+      charType: 0
+      clip: {fileID: 0}
+      isSame: 0
+    uiOption:
+      uiType: 0
+      objPath: 
+      isActive: 0
+      nextScene: {fileID: 0}
+      uiAnimationOption:
+        aniType: 0
+        time: 0
+        startPos: {x: 0, y: 0, z: 0}
+        endPos: {x: 0, y: 0, z: 0}
+        startA: 0
+        endA: 0
+        changeSprite: {fileID: 0}
+        changeText: 
+      pos_UI: {x: 0, y: 0, z: 0}
+      rot_UI: {x: 0, y: 0, z: 0}
+      breatheCnt: 0
+      isSame: 0
+    fadeOption:
+      uiCanvasType: 0
+      startAlpha: 0
+      endAlpha: 0
+      time: 0
+      useLoadingUI: 0
+    videoOption:
+      videoType: 0
+      state: 0
+      seekState: 0
+      urlPath: 
+      sTime: 0
+      eTime: 0
+      jumpLenth: 0
+      rotation: {x: 0, y: 0, z: 0}
+      position: {x: 0, y: 0, z: 0}
+      seekFrame: 0
+      videoClip: {fileID: 0}
+    layOption:
+      isOn: 0
+    waitOption:
+      waitTime: 0.6
+    objActiveOption:
+      ObjType: 0
+      rootParent: 
+      targetObjPath: 
+      isActive: 0
+      skyMat: {fileID: 0}
+      pos_Obj: {x: 0, y: 0, z: 0}
+      rot_Obj: {x: 0, y: 0, z: 0}
+      moveTime: 0
+      curveMove:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      moveOn: 0
+      bezierPos: 0
+      layerNum: 0
+      componentName: 
+      targetParentPath: 
+      targetParentRoot: 
+      cameraViewType: 0
+    sceneOption:
+      sceneMgrType: 0
+      sceneName: 
+      fogOn: 0
+      fogColor: {r: 0, g: 0, b: 0, a: 0}
+      fogMode: 0
+      startDistance: 0
+      endDistance: 0
+      density: 0
+      haloStrength: 0.5
+      flareStrength: 1
+      lightPath: 
+      light: {fileID: 0}
+      lightingDataAsset: {fileID: 0}
+    timerOption:
+      timerType: 0
+      endTime: 0
+      limitTime: 0
+      textPath: 
+      buttonPath: 
+  - visualType: 2
+    isFold: 1
+    narrationOption:
+      soundType: 0
+      narrationType: 0
+      clip: {fileID: 0}
+      isSameTime: 0
+      loop: 0
+      volume: 0
+      volumeFadeTime: 0
+    animationOption:
+      animType: 0
+      charType: 7
+      clip: {fileID: 7400000, guid: 6815b75649aae014f8f82058727e3673, type: 2}
+      isSame: 1
+    uiOption:
+      uiType: 0
+      objPath: 
+      isActive: 0
+      nextScene: {fileID: 0}
+      uiAnimationOption:
+        aniType: 0
+        time: 0
+        startPos: {x: 0, y: 0, z: 0}
+        endPos: {x: 0, y: 0, z: 0}
+        startA: 0
+        endA: 0
+        changeSprite: {fileID: 0}
+        changeText: 
+      pos_UI: {x: 0, y: 0, z: 0}
+      rot_UI: {x: 0, y: 0, z: 0}
+      breatheCnt: 0
+      isSame: 0
+    fadeOption:
+      uiCanvasType: 0
+      startAlpha: 0
+      endAlpha: 0
+      time: 0
+      useLoadingUI: 0
+    videoOption:
+      videoType: 0
+      state: 0
+      seekState: 0
+      urlPath: 
+      sTime: 0
+      eTime: 0
+      jumpLenth: 0
+      rotation: {x: 0, y: 0, z: 0}
+      position: {x: 0, y: 0, z: 0}
+      seekFrame: 0
+      videoClip: {fileID: 0}
+    layOption:
+      isOn: 0
+    waitOption:
+      waitTime: 0
+    objActiveOption:
+      ObjType: 0
+      rootParent: 
+      targetObjPath: 
+      isActive: 0
+      skyMat: {fileID: 0}
+      pos_Obj: {x: 0, y: 0, z: 0}
+      rot_Obj: {x: 0, y: 0, z: 0}
+      moveTime: 0
+      curveMove:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      moveOn: 0
+      bezierPos: 0
+      layerNum: 0
+      componentName: 
+      targetParentPath: 
+      targetParentRoot: 
+      cameraViewType: 0
+    sceneOption:
+      sceneMgrType: 0
+      sceneName: 
+      fogOn: 0
+      fogColor: {r: 0, g: 0, b: 0, a: 0}
+      fogMode: 0
+      startDistance: 0
+      endDistance: 0
+      density: 0
+      haloStrength: 0.5
+      flareStrength: 1
+      lightPath: 
+      light: {fileID: 0}
+      lightingDataAsset: {fileID: 0}
+    timerOption:
+      timerType: 0
+      endTime: 0
+      limitTime: 0
+      textPath: 
+      buttonPath: 
+  - visualType: 3
+    isFold: 1
+    narrationOption:
+      soundType: 0
+      narrationType: 0
+      clip: {fileID: 0}
+      isSameTime: 0
+      loop: 0
+      volume: 0
+      volumeFadeTime: 0
+    animationOption:
+      animType: 0
+      charType: 0
+      clip: {fileID: 0}
+      isSame: 0
+    uiOption:
+      uiType: 0
+      objPath: 
+      isActive: 0
+      nextScene: {fileID: 0}
+      uiAnimationOption:
+        aniType: 0
+        time: 0
+        startPos: {x: 0, y: 0, z: 0}
+        endPos: {x: 0, y: 0, z: 0}
+        startA: 0
+        endA: 0
+        changeSprite: {fileID: 0}
+        changeText: 
+      pos_UI: {x: 0, y: 0, z: 0}
+      rot_UI: {x: 0, y: 0, z: 0}
+      breatheCnt: 0
+      isSame: 0
+    fadeOption:
+      uiCanvasType: 0
+      startAlpha: 0
+      endAlpha: 0
+      time: 0
+      useLoadingUI: 0
+    videoOption:
+      videoType: 0
+      state: 0
+      seekState: 0
+      urlPath: 
+      sTime: 0
+      eTime: 0
+      jumpLenth: 0
+      rotation: {x: 0, y: 0, z: 0}
+      position: {x: 0, y: 0, z: 0}
+      seekFrame: 0
+      videoClip: {fileID: 0}
+    layOption:
+      isOn: 0
+    waitOption:
+      waitTime: 1.5
+    objActiveOption:
+      ObjType: 0
+      rootParent: 
+      targetObjPath: 
+      isActive: 0
+      skyMat: {fileID: 0}
+      pos_Obj: {x: 0, y: 0, z: 0}
+      rot_Obj: {x: 0, y: 0, z: 0}
+      moveTime: 0
+      curveMove:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      moveOn: 0
+      bezierPos: 0
+      layerNum: 0
+      componentName: 
+      targetParentPath: 
+      targetParentRoot: 
+      cameraViewType: 0
+    sceneOption:
+      sceneMgrType: 0
+      sceneName: 
+      fogOn: 0
+      fogColor: {r: 0, g: 0, b: 0, a: 0}
+      fogMode: 0
+      startDistance: 0
+      endDistance: 0
+      density: 0
+      haloStrength: 0.5
+      flareStrength: 1
+      lightPath: 
+      light: {fileID: 0}
+      lightingDataAsset: {fileID: 0}
+    timerOption:
+      timerType: 0
+      endTime: 0
+      limitTime: 0
+      textPath: 
+      buttonPath: 
+  - visualType: 2
+    isFold: 1
+    narrationOption:
+      soundType: 0
+      narrationType: 0
+      clip: {fileID: 0}
+      isSameTime: 0
+      loop: 0
+      volume: 0
+      volumeFadeTime: 0
+    animationOption:
+      animType: 0
+      charType: 7
+      clip: {fileID: 1827226128182048838, guid: 938104de2197417408883fe2a0a49f7d, type: 3}
+      isSame: 1
+    uiOption:
+      uiType: 0
+      objPath: 
+      isActive: 0
+      nextScene: {fileID: 0}
+      uiAnimationOption:
+        aniType: 0
+        time: 0
+        startPos: {x: 0, y: 0, z: 0}
+        endPos: {x: 0, y: 0, z: 0}
+        startA: 0
+        endA: 0
+        changeSprite: {fileID: 0}
+        changeText: 
+      pos_UI: {x: 0, y: 0, z: 0}
+      rot_UI: {x: 0, y: 0, z: 0}
+      breatheCnt: 0
+      isSame: 0
+    fadeOption:
+      uiCanvasType: 0
+      startAlpha: 0
+      endAlpha: 0
+      time: 0
+      useLoadingUI: 0
+    videoOption:
+      videoType: 0
+      state: 0
+      seekState: 0
+      urlPath: 
+      sTime: 0
+      eTime: 0
+      jumpLenth: 0
+      rotation: {x: 0, y: 0, z: 0}
+      position: {x: 0, y: 0, z: 0}
+      seekFrame: 0
+      videoClip: {fileID: 0}
+    layOption:
+      isOn: 0
+    waitOption:
+      waitTime: 0
+    objActiveOption:
+      ObjType: 0
+      rootParent: 
+      targetObjPath: 
+      isActive: 0
+      skyMat: {fileID: 0}
+      pos_Obj: {x: 0, y: 0, z: 0}
+      rot_Obj: {x: 0, y: 0, z: 0}
+      moveTime: 0
+      curveMove:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      moveOn: 0
+      bezierPos: 0
+      layerNum: 0
+      componentName: 
+      targetParentPath: 
+      targetParentRoot: 
+      cameraViewType: 0
+    sceneOption:
+      sceneMgrType: 0
+      sceneName: 
+      fogOn: 0
+      fogColor: {r: 0, g: 0, b: 0, a: 0}
+      fogMode: 0
+      startDistance: 0
+      endDistance: 0
+      density: 0
+      haloStrength: 0.5
+      flareStrength: 1
+      lightPath: 
+      light: {fileID: 0}
+      lightingDataAsset: {fileID: 0}
+    timerOption:
+      timerType: 0
+      endTime: 0
+      limitTime: 0
+      textPath: 
+      buttonPath: 
+  nextScene: {fileID: 0}
+  canRepeat: 0
+  canCameraView: 0
+  canSkip: 0

@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 635bfebfe7180794a95f118a4d319b87, type: 3}
+  m_Name: Stone
+  m_EditorClassIdentifier: 
+  defaultEffect:
+    walkAudioClips:
+    - {fileID: 8300000, guid: 42e65e088b3f4374e851b8dbd38f3df9, type: 3}
+    - {fileID: 8300000, guid: 8bc94ec6ed537e743b481638bdcd503d, type: 3}
+    - {fileID: 8300000, guid: 5a9383dda6cabc047b7a297602e93eb4, type: 3}
+    - {fileID: 8300000, guid: e9714160ce34f2b4ab63ff8c27bd68e1, type: 3}
+    walkPrefabs: []
+    runAudioClips: []
+    runPrefabs: []
+    sprintAudioClips: []
+    sprintPrefabs: []
+    jumpAudioClips:
+    - {fileID: 8300000, guid: 5897aeed9b676024fbb8c694b421a861, type: 3}
+    jumpPrefabs: []
+    landAudioClips:
+    - {fileID: 8300000, guid: 3b09d59f4499d45428baa7a21e954296, type: 3}
+    landPrefabs: []
+    customEffects: []
+  tagEffects:
+  - tag: robot
+    effect:
+      walkAudioClips:
+      - {fileID: 8300000, guid: ebb8565b118fdd04983eb9b92989b4f3, type: 3}
+      - {fileID: 8300000, guid: ea8c090614473a647a5d9f058560ec91, type: 3}
+      - {fileID: 8300000, guid: 38616d8beaeacac42b29004817e8a735, type: 3}
+      - {fileID: 8300000, guid: 72c10acf2c8969c439814bb70fbd0563, type: 3}
+      walkPrefabs: []
+      runAudioClips: []
+      runPrefabs: []
+      sprintAudioClips: []
+      sprintPrefabs: []
+      jumpAudioClips:
+      - {fileID: 8300000, guid: ebb8565b118fdd04983eb9b92989b4f3, type: 3}
+      - {fileID: 8300000, guid: ea8c090614473a647a5d9f058560ec91, type: 3}
+      - {fileID: 8300000, guid: 38616d8beaeacac42b29004817e8a735, type: 3}
+      - {fileID: 8300000, guid: 72c10acf2c8969c439814bb70fbd0563, type: 3}
+      jumpPrefabs: []
+      landAudioClips:
+      - {fileID: 8300000, guid: ebb8565b118fdd04983eb9b92989b4f3, type: 3}
+      - {fileID: 8300000, guid: ea8c090614473a647a5d9f058560ec91, type: 3}
+      - {fileID: 8300000, guid: 38616d8beaeacac42b29004817e8a735, type: 3}
+      - {fileID: 8300000, guid: 72c10acf2c8969c439814bb70fbd0563, type: 3}
+      landPrefabs: []
+      customEffects: []

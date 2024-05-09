@@ -70,3 +70,6 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+*.wav
+Assets/Plugins/Beach_Waves/Textures/Beach_Waves_TextureSheet.tif.meta
+Assets/Plugins/Beach_Waves/Textures/Beach_Waves_TextureSheet.tif

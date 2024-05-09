@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 635bfebfe7180794a95f118a4d319b87, type: 3}
+  m_Name: Sand
+  m_EditorClassIdentifier: 
+  defaultEffect:
+    walkAudioClips:
+    - {fileID: 8300000, guid: 5f8c24a658732184d845ed5043e526d7, type: 3}
+    - {fileID: 8300000, guid: 6624b14e42cb3464aab8adfd1316e714, type: 3}
+    - {fileID: 8300000, guid: b61be665682f9464d83d022d11934798, type: 3}
+    - {fileID: 8300000, guid: 70bcbe27ea4998245be8155b895912e3, type: 3}
+    walkPrefabs:
+    - prefab: {fileID: 1606361985636948, guid: fa2c205d1980096439f3dc4f8e38b37b, type: 3}
+      atHitPosition: 1
+      positionOffset: {x: 0, y: 0, z: 0}
+      useFootRotation: 0
+      useHitNormal: 1
+      rotationOffset: {x: -90, y: 0, z: 0}
+      stopAfter: 0.5
+      removeAfter: 0.2
+    runAudioClips: []
+    runPrefabs:
+    - prefab: {fileID: 1059846203650016, guid: 49b738bc42253d8418769c82b0af62f6, type: 3}
+      atHitPosition: 1
+      positionOffset: {x: 0, y: 0.01, z: 0}
+      useFootRotation: 0
+      useHitNormal: 1
+      rotationOffset: {x: -90, y: 0, z: 0}
+      stopAfter: 0.5
+      removeAfter: 5
+    sprintAudioClips: []
+    sprintPrefabs: []
+    jumpAudioClips:
+    - {fileID: 8300000, guid: 06b53910eb0b6044c9f2af1a06ce9351, type: 3}
+    jumpPrefabs:
+    - prefab: {fileID: 1351093474723554, guid: d4bbb249fd345af4a9c056b8a2bfb14e, type: 3}
+      atHitPosition: 1
+      positionOffset: {x: 0, y: 0, z: 0}
+      useFootRotation: 0
+      useHitNormal: 1
+      rotationOffset: {x: -90, y: 0, z: 0}
+      stopAfter: 0.5
+      removeAfter: 1
+    landAudioClips:
+    - {fileID: 8300000, guid: 18d83e3258acccf488a4443bcd376147, type: 3}
+    landPrefabs:
+    - prefab: {fileID: 1351093474723554, guid: d4bbb249fd345af4a9c056b8a2bfb14e, type: 3}
+      atHitPosition: 1
+      positionOffset: {x: 0, y: 0, z: 0}
+      useFootRotation: 0
+      useHitNormal: 1
+      rotationOffset: {x: -90, y: 0, z: 0}
+      stopAfter: 0.5
+      removeAfter: 1
+    customEffects: []
+  tagEffects:
+  - tag: robot
+    effect:
+      walkAudioClips:
+      - {fileID: 8300000, guid: ebb8565b118fdd04983eb9b92989b4f3, type: 3}
+      - {fileID: 8300000, guid: ea8c090614473a647a5d9f058560ec91, type: 3}
+      - {fileID: 8300000, guid: 38616d8beaeacac42b29004817e8a735, type: 3}
+      - {fileID: 8300000, guid: 72c10acf2c8969c439814bb70fbd0563, type: 3}
+      walkPrefabs: []
+      runAudioClips: []
+      runPrefabs: []
+      sprintAudioClips: []
+      sprintPrefabs: []
+      jumpAudioClips:
+      - {fileID: 8300000, guid: ebb8565b118fdd04983eb9b92989b4f3, type: 3}
+      - {fileID: 8300000, guid: ea8c090614473a647a5d9f058560ec91, type: 3}
+      - {fileID: 8300000, guid: 38616d8beaeacac42b29004817e8a735, type: 3}
+      - {fileID: 8300000, guid: 72c10acf2c8969c439814bb70fbd0563, type: 3}
+      jumpPrefabs: []
+      landAudioClips:
+      - {fileID: 8300000, guid: ebb8565b118fdd04983eb9b92989b4f3, type: 3}
+      - {fileID: 8300000, guid: ea8c090614473a647a5d9f058560ec91, type: 3}
+      - {fileID: 8300000, guid: 38616d8beaeacac42b29004817e8a735, type: 3}
+      - {fileID: 8300000, guid: 72c10acf2c8969c439814bb70fbd0563, type: 3}
+      landPrefabs: []
+      customEffects: []

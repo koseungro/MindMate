@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Logic
+  - Table
+  - Seed_Dummy
+  - Seed
+  - Butterfly_Dummy
+  - Butterfly
+  - Turtle_Dummy
+  - Turtle
+  - DarkTree
+  - BG_DarkTrees
+  - Turtle_Travel
+  - Turtle_Copies
+  - Door
+  - Jelly
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Object
+  - Outline
+  - Lay
+  - OverUI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: OverUI
+    uniqueID: 1879206135
+    locked: 0

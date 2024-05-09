@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 635bfebfe7180794a95f118a4d319b87, type: 3}
+  m_Name: Metal
+  m_EditorClassIdentifier: 
+  defaultEffect:
+    walkAudioClips:
+    - {fileID: 8300000, guid: d563ddb64b2010248b6ce543d16e914c, type: 3}
+    - {fileID: 8300000, guid: 835e4ba69668b9447a9629db50a33d91, type: 3}
+    - {fileID: 8300000, guid: 8263cc77f61ffb54dab45b76244259ac, type: 3}
+    - {fileID: 8300000, guid: f5085b95ff9f85c4eb8e7d5121ab76b2, type: 3}
+    - {fileID: 8300000, guid: aa939027deadbb041b9c8f5e85053217, type: 3}
+    - {fileID: 8300000, guid: 7126e64350e34be4fa1cc59cded25e45, type: 3}
+    walkPrefabs: []
+    runAudioClips: []
+    runPrefabs: []
+    sprintAudioClips: []
+    sprintPrefabs: []
+    jumpAudioClips:
+    - {fileID: 8300000, guid: d563ddb64b2010248b6ce543d16e914c, type: 3}
+    - {fileID: 8300000, guid: 835e4ba69668b9447a9629db50a33d91, type: 3}
+    - {fileID: 8300000, guid: 8263cc77f61ffb54dab45b76244259ac, type: 3}
+    - {fileID: 8300000, guid: f5085b95ff9f85c4eb8e7d5121ab76b2, type: 3}
+    - {fileID: 8300000, guid: aa939027deadbb041b9c8f5e85053217, type: 3}
+    - {fileID: 8300000, guid: 7126e64350e34be4fa1cc59cded25e45, type: 3}
+    jumpPrefabs: []
+    landAudioClips:
+    - {fileID: 8300000, guid: d563ddb64b2010248b6ce543d16e914c, type: 3}
+    - {fileID: 8300000, guid: 835e4ba69668b9447a9629db50a33d91, type: 3}
+    - {fileID: 8300000, guid: 8263cc77f61ffb54dab45b76244259ac, type: 3}
+    - {fileID: 8300000, guid: f5085b95ff9f85c4eb8e7d5121ab76b2, type: 3}
+    - {fileID: 8300000, guid: aa939027deadbb041b9c8f5e85053217, type: 3}
+    - {fileID: 8300000, guid: 7126e64350e34be4fa1cc59cded25e45, type: 3}
+    landPrefabs: []
+    customEffects: []
+  tagEffects:
+  - tag: robot
+    effect:
+      walkAudioClips:
+      - {fileID: 8300000, guid: ebb8565b118fdd04983eb9b92989b4f3, type: 3}
+      - {fileID: 8300000, guid: ea8c090614473a647a5d9f058560ec91, type: 3}
+      - {fileID: 8300000, guid: 38616d8beaeacac42b29004817e8a735, type: 3}
+      - {fileID: 8300000, guid: 72c10acf2c8969c439814bb70fbd0563, type: 3}
+      walkPrefabs: []
+      runAudioClips: []
+      runPrefabs: []
+      sprintAudioClips: []
+      sprintPrefabs: []
+      jumpAudioClips:
+      - {fileID: 8300000, guid: ebb8565b118fdd04983eb9b92989b4f3, type: 3}
+      - {fileID: 8300000, guid: ea8c090614473a647a5d9f058560ec91, type: 3}
+      - {fileID: 8300000, guid: 38616d8beaeacac42b29004817e8a735, type: 3}
+      - {fileID: 8300000, guid: 72c10acf2c8969c439814bb70fbd0563, type: 3}
+      jumpPrefabs: []
+      landAudioClips:
+      - {fileID: 8300000, guid: ebb8565b118fdd04983eb9b92989b4f3, type: 3}
+      - {fileID: 8300000, guid: ea8c090614473a647a5d9f058560ec91, type: 3}
+      - {fileID: 8300000, guid: 38616d8beaeacac42b29004817e8a735, type: 3}
+      - {fileID: 8300000, guid: 72c10acf2c8969c439814bb70fbd0563, type: 3}
+      landPrefabs: []
+      customEffects: []

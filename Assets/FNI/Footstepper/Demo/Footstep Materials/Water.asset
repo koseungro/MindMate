@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 635bfebfe7180794a95f118a4d319b87, type: 3}
+  m_Name: Water
+  m_EditorClassIdentifier: 
+  defaultEffect:
+    walkAudioClips:
+    - {fileID: 8300000, guid: 42d7c1f29dba8f6488acef93da9ae079, type: 3}
+    - {fileID: 8300000, guid: 38b7c06f443dce544a22c2f724e39a45, type: 3}
+    - {fileID: 8300000, guid: 3e38633873af54444bb280865a9bb9fb, type: 3}
+    - {fileID: 8300000, guid: 56d6a69bb7edb5f4e8464e7c6a856fa5, type: 3}
+    - {fileID: 8300000, guid: 87fec7f64a9f0164c810d9e4f606135e, type: 3}
+    - {fileID: 8300000, guid: 0fce5a4be0111254ea4e914eaa318b31, type: 3}
+    walkPrefabs:
+    - prefab: {fileID: 1290157899826188, guid: 2acb240281fdecc4fa7f75fbd549739a, type: 3}
+      atHitPosition: 1
+      positionOffset: {x: 0, y: 0.1, z: 0}
+      useFootRotation: 0
+      useHitNormal: 0
+      rotationOffset: {x: 0, y: 0, z: 0}
+      stopAfter: 0.5
+      removeAfter: 0.2
+    runAudioClips: []
+    runPrefabs: []
+    sprintAudioClips: []
+    sprintPrefabs: []
+    jumpAudioClips:
+    - {fileID: 8300000, guid: 42d7c1f29dba8f6488acef93da9ae079, type: 3}
+    - {fileID: 8300000, guid: 38b7c06f443dce544a22c2f724e39a45, type: 3}
+    - {fileID: 8300000, guid: 3e38633873af54444bb280865a9bb9fb, type: 3}
+    - {fileID: 8300000, guid: 56d6a69bb7edb5f4e8464e7c6a856fa5, type: 3}
+    - {fileID: 8300000, guid: 87fec7f64a9f0164c810d9e4f606135e, type: 3}
+    - {fileID: 8300000, guid: 0fce5a4be0111254ea4e914eaa318b31, type: 3}
+    jumpPrefabs:
+    - prefab: {fileID: 1609755846730510, guid: 1f0fd38c34bcdca44bb79c4a64e91d74, type: 3}
+      atHitPosition: 1
+      positionOffset: {x: 0, y: 0.1, z: 0}
+      useFootRotation: 0
+      useHitNormal: 0
+      rotationOffset: {x: 0, y: 0, z: 0}
+      stopAfter: 0.5
+      removeAfter: 1
+    landAudioClips:
+    - {fileID: 8300000, guid: 42d7c1f29dba8f6488acef93da9ae079, type: 3}
+    - {fileID: 8300000, guid: 38b7c06f443dce544a22c2f724e39a45, type: 3}
+    - {fileID: 8300000, guid: 3e38633873af54444bb280865a9bb9fb, type: 3}
+    - {fileID: 8300000, guid: 56d6a69bb7edb5f4e8464e7c6a856fa5, type: 3}
+    - {fileID: 8300000, guid: 87fec7f64a9f0164c810d9e4f606135e, type: 3}
+    - {fileID: 8300000, guid: 0fce5a4be0111254ea4e914eaa318b31, type: 3}
+    landPrefabs:
+    - prefab: {fileID: 1609755846730510, guid: 1f0fd38c34bcdca44bb79c4a64e91d74, type: 3}
+      atHitPosition: 1
+      positionOffset: {x: 0, y: 0.1, z: 0}
+      useFootRotation: 0
+      useHitNormal: 0
+      rotationOffset: {x: 0, y: 0, z: 0}
+      stopAfter: 0.5
+      removeAfter: 1
+    customEffects: []
+  tagEffects: []

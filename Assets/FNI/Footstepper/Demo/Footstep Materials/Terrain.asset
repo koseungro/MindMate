@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d57823b09fee994d84745d0f8e0ee22, type: 3}
+  m_Name: Terrain
+  m_EditorClassIdentifier: 
+  textureData:
+  - texture:
+    - {fileID: 2800000, guid: 9835d3d07a59f7344851c1e0af136c02, type: 3}
+    - {fileID: 2800000, guid: 517922fe018827149a04f1f367f0fb0d, type: 3}
+    sprite:
+    - {fileID: 21300000, guid: 2885ddfb7ed238f45b01bad7179b9418, type: 3}
+    material: {fileID: 11400000, guid: 68485a5344565aa47963e4394b262a2b, type: 2}
+  - texture:
+    - {fileID: 2800000, guid: e88b69ec5b221f24dbc6833a86b15446, type: 3}
+    - {fileID: 2800000, guid: 1218032fe2f7d0e4ebb0432d048181ea, type: 3}
+    sprite:
+    - {fileID: 21300000, guid: 7d22f7e5bccb50848891c453a7bc12b3, type: 3}
+    material: {fileID: 11400000, guid: d3ed77916d7a4e242999e427e5eaa7ff, type: 2}
+  - texture:
+    - {fileID: 2800000, guid: 90d84e029e53d3e47a157916a5fb73b5, type: 3}
+    sprite:
+    - {fileID: 21300000, guid: f8429c6e40a07c64799792ddaaf058b6, type: 3}
+    material: {fileID: 11400000, guid: 57eecb788f6fcb7449d140e54bffdaa6, type: 2}
+  - texture:
+    - {fileID: 2800000, guid: 973943c88583ad24a9e9e7c3ac94861e, type: 3}
+    - {fileID: 2800000, guid: ec841b0c2238f704ebfb8842094d70dd, type: 3}
+    sprite:
+    - {fileID: 21300000, guid: 3377e37222904ea498b72d61edc31c7a, type: 3}
+    material: {fileID: 11400000, guid: 474ed65471d2dea44898d0f1f4ebdda8, type: 2}
+  - texture:
+    - {fileID: 2800000, guid: 5f16633fa60c8df4baab9d73d81dc282, type: 3}
+    - {fileID: 2800000, guid: b8228f598599639439c1fb1ca3844433, type: 3}
+    sprite:
+    - {fileID: 21300000, guid: 79133028c87539e48b0cb8e0b40804fc, type: 3}
+    material: {fileID: 11400000, guid: 356936d1d2a9b8347a7830368dd59b6f, type: 2}

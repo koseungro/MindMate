@@ -1,0 +1,105 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 635bfebfe7180794a95f118a4d319b87, type: 3}
+  m_Name: Grass
+  m_EditorClassIdentifier: 
+  defaultEffect:
+    walkAudioClips:
+    - {fileID: 8300000, guid: b35e768528c93d543880141b8011b2d8, type: 3}
+    - {fileID: 8300000, guid: af755045446b2bb4b9d4b2875b33cc84, type: 3}
+    - {fileID: 8300000, guid: 83713c70856144a4fa2ac8ffcedba1a1, type: 3}
+    - {fileID: 8300000, guid: f78ff7c1881968c49a608766eb7e38cf, type: 3}
+    - {fileID: 8300000, guid: 230f912263b328e488551e5f3cd75e4d, type: 3}
+    - {fileID: 8300000, guid: 621e8f97f86e1b34c853ad1afa29d52f, type: 3}
+    - {fileID: 8300000, guid: e379364bf9226a24b81106f238e473e2, type: 3}
+    walkPrefabs:
+    - prefab: {fileID: 1470621508234198, guid: 8329c3226fd16714499e0515afca1731, type: 3}
+      atHitPosition: 1
+      positionOffset: {x: 0, y: 0, z: 0}
+      useFootRotation: 0
+      useHitNormal: 1
+      rotationOffset: {x: -90, y: 0, z: 0}
+      stopAfter: 0.5
+      removeAfter: 0.1
+    runAudioClips: []
+    runPrefabs:
+    - prefab: {fileID: 1416862303486368, guid: 66a80150b9ed4f246ab132591a83eb69, type: 3}
+      atHitPosition: 1
+      positionOffset: {x: 0, y: 0, z: 0}
+      useFootRotation: 0
+      useHitNormal: 1
+      rotationOffset: {x: -90, y: 0, z: 0}
+      stopAfter: 0.5
+      removeAfter: 0.2
+    sprintAudioClips: []
+    sprintPrefabs: []
+    jumpAudioClips:
+    - {fileID: 8300000, guid: b35e768528c93d543880141b8011b2d8, type: 3}
+    - {fileID: 8300000, guid: af755045446b2bb4b9d4b2875b33cc84, type: 3}
+    - {fileID: 8300000, guid: 83713c70856144a4fa2ac8ffcedba1a1, type: 3}
+    - {fileID: 8300000, guid: f78ff7c1881968c49a608766eb7e38cf, type: 3}
+    - {fileID: 8300000, guid: 230f912263b328e488551e5f3cd75e4d, type: 3}
+    - {fileID: 8300000, guid: 621e8f97f86e1b34c853ad1afa29d52f, type: 3}
+    - {fileID: 8300000, guid: e379364bf9226a24b81106f238e473e2, type: 3}
+    jumpPrefabs:
+    - prefab: {fileID: 1379031426843448, guid: 3894bec622582d44fbc92af19b5df227, type: 3}
+      atHitPosition: 1
+      positionOffset: {x: 0, y: 0, z: 0}
+      useFootRotation: 0
+      useHitNormal: 1
+      rotationOffset: {x: -90, y: 0, z: 0}
+      stopAfter: 0.5
+      removeAfter: 0.2
+    landAudioClips:
+    - {fileID: 8300000, guid: b35e768528c93d543880141b8011b2d8, type: 3}
+    - {fileID: 8300000, guid: af755045446b2bb4b9d4b2875b33cc84, type: 3}
+    - {fileID: 8300000, guid: 83713c70856144a4fa2ac8ffcedba1a1, type: 3}
+    - {fileID: 8300000, guid: f78ff7c1881968c49a608766eb7e38cf, type: 3}
+    - {fileID: 8300000, guid: 230f912263b328e488551e5f3cd75e4d, type: 3}
+    - {fileID: 8300000, guid: 621e8f97f86e1b34c853ad1afa29d52f, type: 3}
+    - {fileID: 8300000, guid: e379364bf9226a24b81106f238e473e2, type: 3}
+    landPrefabs:
+    - prefab: {fileID: 1379031426843448, guid: 3894bec622582d44fbc92af19b5df227, type: 3}
+      atHitPosition: 1
+      positionOffset: {x: 0, y: 0, z: 0}
+      useFootRotation: 0
+      useHitNormal: 1
+      rotationOffset: {x: -90, y: 0, z: 0}
+      stopAfter: 0.5
+      removeAfter: 0.2
+    customEffects: []
+  tagEffects:
+  - tag: robot
+    effect:
+      walkAudioClips:
+      - {fileID: 8300000, guid: ebb8565b118fdd04983eb9b92989b4f3, type: 3}
+      - {fileID: 8300000, guid: ea8c090614473a647a5d9f058560ec91, type: 3}
+      - {fileID: 8300000, guid: 38616d8beaeacac42b29004817e8a735, type: 3}
+      - {fileID: 8300000, guid: 72c10acf2c8969c439814bb70fbd0563, type: 3}
+      walkPrefabs: []
+      runAudioClips: []
+      runPrefabs: []
+      sprintAudioClips: []
+      sprintPrefabs: []
+      jumpAudioClips:
+      - {fileID: 8300000, guid: ebb8565b118fdd04983eb9b92989b4f3, type: 3}
+      - {fileID: 8300000, guid: ea8c090614473a647a5d9f058560ec91, type: 3}
+      - {fileID: 8300000, guid: 38616d8beaeacac42b29004817e8a735, type: 3}
+      - {fileID: 8300000, guid: 72c10acf2c8969c439814bb70fbd0563, type: 3}
+      jumpPrefabs: []
+      landAudioClips:
+      - {fileID: 8300000, guid: ebb8565b118fdd04983eb9b92989b4f3, type: 3}
+      - {fileID: 8300000, guid: ea8c090614473a647a5d9f058560ec91, type: 3}
+      - {fileID: 8300000, guid: 38616d8beaeacac42b29004817e8a735, type: 3}
+      - {fileID: 8300000, guid: 72c10acf2c8969c439814bb70fbd0563, type: 3}
+      landPrefabs: []
+      customEffects: []
