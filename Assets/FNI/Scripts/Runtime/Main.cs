@@ -167,6 +167,33 @@ namespace FNI
             }
 
         }
+
+        /// <summary>
+        /// 필요한 데이터를 할당하고 초기화합니다.
+        /// </summary>
+        private void Setting()
+        {
+            cutObject_List.Add(GameObject.Find("---------------UI").GetComponent<IVisualObject>());
+            cutObject_List.Add(GameObject.Find("---------------Scripts/FadeInOutForSequence").GetComponent<IVisualObject>());
+            cutObject_List.Add(GameObject.Find("---------------Scripts/NarrationForSequence").GetComponent<IVisualObject>());
+            cutObject_List.Add(GameObject.Find("---------------Video").GetComponent<IVisualObject>());
+            cutObject_List.Add(GameObject.Find("---------------Scripts/LayForSequence").GetComponent<IVisualObject>());
+            cutObject_List.Add(GameObject.Find("---------------Scripts/WaitForSequence").GetComponent<IVisualObject>());
+            cutObject_List.Add(GameObject.Find("---------------Scripts/SceneMgrForSequence").GetComponent<IVisualObject>());
+            cutObject_List.Add(GameObject.Find("---------------Scripts/AnimationForSequence").GetComponent<IVisualObject>());
+            cutObject_List.Add(GameObject.Find("---------------Scripts/TimerForSequence").GetComponent<IVisualObject>());
+            cutObject_List.Add(GameObject.Find("---------------Scripts/XRManagerForSequence").GetComponent<IVisualObject>());
+            cutObject_List.Add(GameObject.Find("---------------Object").GetComponent<IVisualObject>());
+
+            for (int i = 0; i < cutObject_List.Count; i++)
+            {
+                cutObject_List[i].Init();
+            }
+        }
+
+        /// <summary>
+        /// 컷 진행 루프 사이클
+        /// </summary>
         #region Cut Loop
 
         public void CutSkip()
@@ -383,28 +410,6 @@ namespace FNI
 
         #endregion
 
-        /// <summary>
-        /// 필요한 데이터를 할당하고 초기화합니다.
-        /// </summary>
-        private void Setting()
-        {
-            cutObject_List.Add(GameObject.Find("---------------UI").GetComponent<IVisualObject>());
-            cutObject_List.Add(GameObject.Find("---------------Scripts/FadeInOutForSequence").GetComponent<IVisualObject>());
-            cutObject_List.Add(GameObject.Find("---------------Scripts/NarrationForSequence").GetComponent<IVisualObject>());
-            cutObject_List.Add(GameObject.Find("---------------Video").GetComponent<IVisualObject>());
-            cutObject_List.Add(GameObject.Find("---------------Scripts/LayForSequence").GetComponent<IVisualObject>());
-            cutObject_List.Add(GameObject.Find("---------------Scripts/WaitForSequence").GetComponent<IVisualObject>());
-            cutObject_List.Add(GameObject.Find("---------------Scripts/SceneMgrForSequence").GetComponent<IVisualObject>());
-            cutObject_List.Add(GameObject.Find("---------------Scripts/AnimationForSequence").GetComponent<IVisualObject>());
-            cutObject_List.Add(GameObject.Find("---------------Scripts/TimerForSequence").GetComponent<IVisualObject>());
-            cutObject_List.Add(GameObject.Find("---------------Scripts/XRManagerForSequence").GetComponent<IVisualObject>());
-            cutObject_List.Add(GameObject.Find("---------------Object").GetComponent<IVisualObject>());
-
-            for (int i = 0; i < cutObject_List.Count; i++)
-            {
-                cutObject_List[i].Init();
-            }
-        }
 
         /// <summary>
         /// 현재 시퀀스 컷을 추출합니다./// </summary>
@@ -414,7 +419,6 @@ namespace FNI
         {
             return curSequence.cutDataList[cutIndex];
         }
-
 
         /// <summary>
         /// 버튼이벤트를 통한 Other 시퀀스
@@ -439,6 +443,34 @@ namespace FNI
 
         }
 
+        /// <summary>
+        /// 다른 시퀀스로 이동(외부 참조 불가능)
+        /// </summary>
+        /// <param name="data"></param>
+        private void ChangeSequence(SceneData data)
+        {
+            curSequence = data;
+            curSceneID = curSequence.sceneID;
+        }
+
+        /// <summary>
+        /// 다른 시퀀스로 이동(외부 참조 가능)
+        /// </summary>
+        /// <param name="scene"></param>
+        public void ChangeScene(SceneData scene)
+        {
+            ChangeSequence(scene);
+            cutIndex = 0;
+
+            sequenceState = SequenceState.Start;
+        }
+
+        public void SetNextScene(SceneData data)
+        {
+            curSequence.nextScene = data;
+        }
+
+        #region HMD Event
         /// <summary>
         /// Hmd 일시정지 이벤트
         /// </summary>
@@ -487,32 +519,6 @@ namespace FNI
                 }
             }
         }
-
-        /// <summary>
-        /// 다른 시퀀스로 이동(외부 참조 불가능)
-        /// </summary>
-        /// <param name="data"></param>
-        private void ChangeSequence(SceneData data)
-        {
-            curSequence = data;
-            curSceneID = curSequence.sceneID;
-        }
-
-        /// <summary>
-        /// 다른 시퀀스로 이동(외부 참조 가능)
-        /// </summary>
-        /// <param name="scene"></param>
-        public void ChangeScene(SceneData scene)
-        {
-            ChangeSequence(scene);
-            cutIndex = 0;
-
-            sequenceState = SequenceState.Start;
-        }
-
-        public void SetNextScene(SceneData data)
-        {
-            curSequence.nextScene = data;
-        }
+        #endregion
     }
 }

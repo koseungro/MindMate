@@ -105,27 +105,7 @@ public class VideoDownloadManager : MonoBehaviour
         }
     }
 
-    private void CreateVideoFolder()
-    {
-        if (videoFolderPath == "")
-        {
-#if UNITY_EDITOR
-            videoFolderPath = Application.dataPath + "/../Video/";
-#else
-        videoFolderPath = Application.persistentDataPath + "/Video/";
-#endif
-
-            if (!Directory.Exists(videoFolderPath))
-            {
-                Debug.Log($"[비디오 폴더 생성] Path : <color=yellow>[{videoFolderPath}]</color>");
-
-                Directory.CreateDirectory(videoFolderPath);
-            }
-            else
-                Debug.Log($"Video Folder Path : <color=yellow>[{videoFolderPath}]</color>가 이미 존재합니다.");
-        }
-    }
-
+    #region Download Video
     public void DownVideo()
     {
         Debug.Log("Download Video");
@@ -290,6 +270,29 @@ public class VideoDownloadManager : MonoBehaviour
         cnt++;
         isDownloading = false;
     }
+    #endregion
+
+    #region Check Video Folder/File
+    private void CreateVideoFolder()
+    {
+        if (videoFolderPath == "")
+        {
+#if UNITY_EDITOR
+            videoFolderPath = Application.dataPath + "/../Video/";
+#else
+        videoFolderPath = Application.persistentDataPath + "/Video/";
+#endif
+
+            if (!Directory.Exists(videoFolderPath))
+            {
+                Debug.Log($"[비디오 폴더 생성] Path : <color=yellow>[{videoFolderPath}]</color>");
+
+                Directory.CreateDirectory(videoFolderPath);
+            }
+            else
+                Debug.Log($"Video Folder Path : <color=yellow>[{videoFolderPath}]</color>가 이미 존재합니다.");
+        }
+    }
 
     /// <summary>
     /// 영상 파일이 다운로드 완료되어있는지 하니씩 체크하여 확인합니다.
@@ -330,4 +333,5 @@ public class VideoDownloadManager : MonoBehaviour
         isDownloadComplete = true;
         return isDownloadComplete;
     }
+    #endregion
 }
