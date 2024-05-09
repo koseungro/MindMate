@@ -193,6 +193,7 @@ namespace FNI
 
         }
         #endregion
+
         #region Volume Controll
         private void SetVolume(NarrationOption option)
         {
@@ -329,6 +330,7 @@ namespace FNI
 
         }
         #endregion
+
         #region Subtitle
         private void PlaySubtitleSound(NarrationOption option)
         {
