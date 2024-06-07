@@ -32,7 +32,6 @@ public class NamedArrayDDrawer : PropertyDrawer
 }
 #endif
 
-
 /// <summary>
 /// 콘텐츠 비디오 다운로드 관리 클래스
 /// </summary>
